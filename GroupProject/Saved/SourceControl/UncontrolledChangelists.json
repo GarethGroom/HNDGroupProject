@@ -6,6 +6,10 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/Dylan/Documents/UnrealRepos/Climate/HNDGroupProject/GroupProject/Content/TopDown/Maps/M_Rural.umap",
+				"C:/Users/Dylan/Documents/UnrealRepos/Climate/HNDGroupProject/GroupProject/Content/Maps/M_Map1.umap",
+				"C:/Users/Dylan/Documents/UnrealRepos/Climate/HNDGroupProject/GroupProject/Content/Maps/M_Map2.umap",
+				"C:/Users/Dylan/Documents/UnrealRepos/Climate/HNDGroupProject/GroupProject/Content/Materials/Water/MI_Water.uasset",
+				"C:/Users/Dylan/Documents/UnrealRepos/Climate/HNDGroupProject/GroupProject/Content/Materials/BasicShapeMaterial_Inst.uasset",
 				"D:/Unreal Engine/Projects/HNDGroupProject/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset",
 				"D:/Unreal Engine/Projects/HNDGroupProject/Content/TopDown/Blueprints/BP_TopDownController.uasset",
 				"D:/Unreal Engine/Projects/HNDGroupProject/Content/__ExternalActors__/TopDown/Maps/TopDownMap/0/QS/8AKCSH4RXXQHHQMCR8GO6C.uasset",
