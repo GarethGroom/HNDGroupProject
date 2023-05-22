@@ -1280,3 +1280,462 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.05.22-19.34.45:247][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.05.22-19.34.45:249][740]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
 [2023.05.22-19.34.45:301][743]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display: ================================================
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display: Total job queries 403, among them cache hits 85 (21.09%)
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display: Tracking 266 distinct input hashes that result in 151 distinct outputs (56.77%)
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display: RAM used: 1.92 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.12%
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display: Shaders Compiled: 129
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display: Jobs assigned 129, completed 129 (100.00%)
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display: Average time worker was idle: 2.19 s
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display: Time job spent in pending queue: average 1.93 s, longest 3.77 s
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display: Job execution time: average 0.81 s, max 3.17 s
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display: Job life time (pending + execution): average 2.74 s, max 4.24
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 10.57 s
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display: Jobs were issued in 129 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display: Average processing rate: 12.21 jobs/sec
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display: Total thread time: 55.27 s
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display: Total thread preprocess time: 3.25 s
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display: Percentage time preprocessing: 5.87%
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display: Effective parallelization: 5.23 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   25 times, average 0.60 sec, max 0.71 sec, min 0.49 sec)
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    2 times, average 0.59 sec, max 0.59 sec, min 0.59 sec)
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   25 times, average 0.55 sec, max 0.69 sec, min 0.42 sec)
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display:                                      FLandscapeGrassWeightVS (compiled    2 times, average 0.47 sec, max 0.48 sec, min 0.47 sec)
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    6 times, average 0.47 sec, max 0.60 sec, min 0.38 sec)
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 26.94% of total time (compiled   25 times, average 0.60 sec, max 0.71 sec, min 0.49 sec)
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 24.73% of total time (compiled   25 times, average 0.55 sec, max 0.69 sec, min 0.42 sec)
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display:                                                 FLumenCardVS - 19.52% of total time (compiled   23 times, average 0.47 sec, max 0.55 sec, min 0.39 sec)
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 13.11% of total time (compiled   23 times, average 0.31 sec, max 0.35 sec, min 0.28 sec)
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display:                                                  FHitProxyVS - 5.12% of total time (compiled    6 times, average 0.47 sec, max 0.60 sec, min 0.38 sec)
+[2023.05.22-19.36.54:975][134]LogShaderCompilers: Display: ================================================
+[2023.05.22-19.36.55:747][190]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.05.22-19.36.55:881][190]LogStaticMesh: Display: Building static mesh SM_Tree_leaf_alpha_1...
+[2023.05.22-19.36.55:891][190]LogStaticMesh: Display: Building static mesh SM_Wind...
+[2023.05.22-19.36.55:891][190]LogStaticMesh: Display: Building static mesh SM_Wind_02...
+[2023.05.22-19.36.55:894][190]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/SM_Wind_02.SM_Wind_02
+[2023.05.22-19.36.55:894][190]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/SM_Wind.SM_Wind
+[2023.05.22-19.36.55:897][190]LogTexture: Display: Building textures: /Game/Materials/Textures/MicrosoftTeams-image.MicrosoftTeams-image (BGRA8, 1023x963 x1x1x1) (Required Memory Estimate: 28.87418 MB), EncodeSpeed: Fast
+[2023.05.22-19.36.55:909][190]LogTexture: Display: Building textures: /Game/Materials/Textures/MicrosoftTeams-image__1_.MicrosoftTeams-image__1_ (TFO_AutoDXT, 1920x1080 x1x1x1) (Required Memory Estimate: 213.460938 MB), EncodeSpeed: Fast
+[2023.05.22-19.36.55:909][190]LogTexture: Display: Building textures: /Game/Materials/Textures/MicrosoftTeams-image__3_.MicrosoftTeams-image__3_ (TFO_AutoDXT, 1920x1080 x1x1x1) (Required Memory Estimate: 213.460938 MB), EncodeSpeed: Fast
+[2023.05.22-19.36.55:910][190]LogTexture: Display: Building textures: /Game/Materials/Textures/MicrosoftTeams-image__2_.MicrosoftTeams-image__2_ (TFO_AutoDXT, 1920x1080 x1x1x1) (Required Memory Estimate: 213.460938 MB), EncodeSpeed: Fast
+[2023.05.22-19.36.55:932][190]LogStaticMesh: Display: Building static mesh Wardrobe...
+[2023.05.22-19.36.55:932][190]LogStaticMesh: Display: Building static mesh Desk_Cube_001...
+[2023.05.22-19.36.55:932][190]LogStaticMesh: Display: Building static mesh Sofa...
+[2023.05.22-19.36.55:932][190]LogStaticMesh: Display: Building static mesh Desk_Icosphere...
+[2023.05.22-19.36.55:932][190]LogStaticMesh: Display: Building static mesh THING...
+[2023.05.22-19.36.55:933][190]LogTexture: Display: Building textures: /Game/Maps/M_Level2.M_Level2:PersistentLevel.Landscape_2.Weightmap_0 (BGRA8, 16x16 x1x1x1) (Required Memory Estimate: 0.070305 MB), EncodeSpeed: Fast
+[2023.05.22-19.36.55:933][190]LogTexture: Display: Building textures: /Game/Maps/M_Level2.M_Level2:PersistentLevel.Landscape_2.Heightmap_0 (BGRA8, 128x128 x1x1x1) (Required Memory Estimate: 0.562492 MB), EncodeSpeed: Fast
+[2023.05.22-19.36.55:948][190]LogTexture: Display: Building textures: /Game/Maps/M_Level2.M_Level2:PersistentLevel.Landscape_2.Weightmap_3 (BGRA8, 16x16 x1x1x1) (Required Memory Estimate: 0.070305 MB), EncodeSpeed: Fast
+[2023.05.22-19.36.55:948][190]LogTexture: Display: Building textures: /Game/Maps/M_Level2.M_Level2:PersistentLevel.Landscape_2.Weightmap_16 (BGRA8, 16x16 x1x1x1) (Required Memory Estimate: 0.070305 MB), EncodeSpeed: Fast
+[2023.05.22-19.36.55:948][190]LogTexture: Display: Building textures: /Game/Maps/M_Level2.M_Level2:PersistentLevel.Landscape_2.Weightmap_5 (BGRA8, 16x16 x1x1x1) (Required Memory Estimate: 0.070305 MB), EncodeSpeed: Fast
+[2023.05.22-19.36.55:948][190]LogTexture: Display: Building textures: /Game/Maps/M_Level2.M_Level2:PersistentLevel.Landscape_2.Weightmap_17 (BGRA8, 16x16 x1x1x1) (Required Memory Estimate: 0.070305 MB), EncodeSpeed: Fast
+[2023.05.22-19.36.55:948][190]LogTexture: Display: Building textures: /Game/Maps/M_Level2.M_Level2:PersistentLevel.Landscape_2.Weightmap_24 (BGRA8, 16x16 x1x1x1) (Required Memory Estimate: 0.070305 MB), EncodeSpeed: Fast
+[2023.05.22-19.36.55:948][190]LogTexture: Display: Building textures: /Game/Maps/M_Level2.M_Level2:PersistentLevel.Landscape_2.Weightmap_32 (BGRA8, 16x16 x1x1x1) (Required Memory Estimate: 0.070305 MB), EncodeSpeed: Fast
+[2023.05.22-19.36.55:948][190]LogTexture: Display: Building textures: /Game/Maps/M_Level2.M_Level2:PersistentLevel.Landscape_2.Weightmap_33 (BGRA8, 16x16 x1x1x1) (Required Memory Estimate: 0.070305 MB), EncodeSpeed: Fast
+[2023.05.22-19.36.55:948][190]LogTexture: Display: Building textures: /Game/Maps/M_Level2.M_Level2:PersistentLevel.Landscape_2.Weightmap_8 (BGRA8, 16x16 x1x1x1) (Required Memory Estimate: 0.070305 MB), EncodeSpeed: Fast
+[2023.05.22-19.36.55:948][190]LogTexture: Display: Building textures: /Game/Maps/M_Level2.M_Level2:PersistentLevel.Landscape_2.Weightmap_7 (BGRA8, 16x16 x1x1x1) (Required Memory Estimate: 0.070305 MB), EncodeSpeed: Fast
+[2023.05.22-19.36.55:948][190]LogTexture: Display: Building textures: /Game/Maps/M_Level2.M_Level2:PersistentLevel.Landscape_2.Weightmap_11 (BGRA8, 16x16 x1x1x1) (Required Memory Estimate: 0.070305 MB), EncodeSpeed: Fast
+[2023.05.22-19.36.55:951][190]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/Furniture/Desk/Desk_Cube_001.Desk_Cube_001
+[2023.05.22-19.36.55:951][190]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/Furniture/Sofa.Sofa
+[2023.05.22-19.36.55:951][190]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/Furniture/Wardrobe.Wardrobe
+[2023.05.22-19.36.55:951][190]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/Furniture/Desk/Desk_Icosphere.Desk_Icosphere
+[2023.05.22-19.36.55:956][190]LogStaticMesh: Built static mesh [0.07s] /Game/Meshes/Trees/SM_Tree_leaf_alpha_1.SM_Tree_leaf_alpha_1
+[2023.05.22-19.36.55:997][190]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/M_Level2.M_Level2
+[2023.05.22-19.36.55:997][190]Cmd: MAP LOAD FILE="../../../../../Unreal Engine/Projects/GroupProjectGIT/HNDGroupProject/GroupProject/Content/Maps/M_Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.22-19.36.55:997][190]LightingResults: New page: Lighting Build
+[2023.05.22-19.36.55:997][190]LoadErrors: New page: Loading map: M_Level2.umap
+[2023.05.22-19.36.56:034][190]LogWorld: UWorld::CleanupWorld for M_Map1, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-19.36.56:034][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-19.36.56:034][190]MapCheck: New page: Map Check
+[2023.05.22-19.36.56:034][190]LightingResults: New page: Lighting Build
+[2023.05.22-19.36.56:041][190]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-19.36.56:046][190]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.05.22-19.36.56:048][190]LogStaticMesh: Built static mesh [0.12s] /Game/Meshes/Gyroids/THING.THING
+[2023.05.22-19.36.58:001][190]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2023.05.22-19.36.58:563][190]LogMeshUtilities: Finished distance field build in 1.2s - 119x98x105 sparse distance field, 1.3Mb total, 0.0Mb always loaded, 61% occupied, 896 triangles, SM_Tree_leaf_alpha_1
+[2023.05.22-19.36.58:950][190]LogWorld: UWorld::CleanupWorld for M_Level2, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-19.36.58:951][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-19.36.58:971][190]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.05.22-19.36.58:979][190]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.05.22-19.36.59:005][190]LogAudio: Display: Audio Device (ID: 1) registered with world 'M_Level2'.
+[2023.05.22-19.36.59:005][190]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-19.36.59:006][190]LogAIModule: Creating AISystem for world M_Level2
+[2023.05.22-19.36.59:377][190]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.22-19.36.59:381][190]LogNavigationDataBuild: Display:    RebuildAll building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2023.05.22-19.36.59:381][190]LogNavigationDataBuild: Display:    ANavigationData::RebuildAll load time: 0.00s
+[2023.05.22-19.36.59:396][190]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.05.22-19.36.59:411][190]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.22-19.36.59:412][190]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.343ms to complete.
+[2023.05.22-19.36.59:412][190]LogFileHelpers: Loading map 'M_Level2' took 3.415
+[2023.05.22-19.36.59:427][190]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.004603s (1.429883s overbudget)
+[2023.05.22-19.36.59:678][191]LogNavigationDataBuild: Display:    FRecastNavMeshGenerator::ProcessTileTasksAndGetUpdatedTiles build time: 0.30s
+[2023.05.22-19.36.59:678][191]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Level2.M_Level2:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.37.00:405][209]LogNiagara: Compiling System NiagaraSystem /Game/Materials/Effects/NS_Wind.NS_Wind took 4.458808 sec (time since issued), 6.136813 sec (combined shader worker time).
+[2023.05.22-19.37.03:711][511]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-19.37.03:718][511]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-19.37.03:718][511]PIE: New page: PIE session: M_Level2 (22 May 2023, 21:37:03)
+[2023.05.22-19.37.03:718][511]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_M_Level2
+[2023.05.22-19.37.03:734][511]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015867s)
+[2023.05.22-19.37.03:734][511]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/M_Level2.M_Level2 to /Game/Maps/UEDPIE_0_M_Level2.M_Level2 (0.015896s)
+[2023.05.22-19.37.03:734][511]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-19.37.03:734][511]LogAIModule: Creating AISystem for world M_Level2
+[2023.05.22-19.37.03:735][511]LogPlayLevel: PIE: World Init took: (0.000682s)
+[2023.05.22-19.37.03:751][511]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.05.22-19.37.03:751][511]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.05.22-19.37.03:751][511]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-19.37.03:751][511]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-19.37.03:751][511]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-19.37.03:751][511]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-19.37.03:751][511]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-19.37.03:751][511]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-19.37.03:751][511]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-19.37.03:751][511]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-19.37.03:752][511]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-19.37.03:752][511]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-19.37.03:752][511]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-19.37.03:754][511]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-19.37.03:768][511]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.05.22-19.37.03:769][511]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-19.37.03:769][511]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-19.37.03:769][511]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-19.37.03:770][511]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.05.22-19.37.03:770][511]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.05.22-19.37.03:771][511]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.05.22-19.37.03:771][511]LogInit: FAudioDevice initialized.
+[2023.05.22-19.37.03:771][511]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.05.22-19.37.03:771][511]LogAudio: Display: Audio Device (ID: 3) registered with world 'M_Level2'.
+[2023.05.22-19.37.03:774][511]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.05.22-19.37.03:781][511]LogWorld: Bringing World /Game/Maps/UEDPIE_0_M_Level2.M_Level2 up for play (max tick rate 0) at 2023.05.22-20.37.03
+[2023.05.22-19.37.03:782][511]LogWorld: Bringing up level for play took: 0.007928
+[2023.05.22-19.37.03:784][511]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2023.05.22-19.37.03:787][511]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] 1
+[2023.05.22-19.37.03:787][511]PIE: Server logged in
+[2023.05.22-19.37.03:788][511]PIE: Play in editor total start time 0.07 seconds.
+[2023.05.22-19.37.27:003][814]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-19.37.27:003][814]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_M_Level2
+[2023.05.22-19.37.27:004][814]LogWorld: UWorld::CleanupWorld for M_Level2, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-19.37.27:005][814]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-19.37.27:007][814]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-19.37.27:009][814]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-19.37.27:015][814]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-19.37.27:017][814]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.05.22-19.37.27:018][814]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.05.22-19.37.27:021][814]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-19.37.27:023][814]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.05.22-19.37.27:089][817]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2023.05.22-19.37.38:231][ 13]Cmd: SELECT NONE
+[2023.05.22-19.37.43:918][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.05.22-19.37.44:070][665]LogStaticMesh: Display: Building static mesh SM_Tree2__0...
+[2023.05.22-19.37.44:070][665]LogStaticMesh: Display: Building static mesh SM_Maple_bark02_0...
+[2023.05.22-19.37.44:070][665]LogStaticMesh: Display: Building static mesh SM_Maple_leaf_maple_1...
+[2023.05.22-19.37.44:108][665]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/M_Map3.M_Map3
+[2023.05.22-19.37.44:108][665]Cmd: MAP LOAD FILE="../../../../../Unreal Engine/Projects/GroupProjectGIT/HNDGroupProject/GroupProject/Content/Maps/M_Map3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.22-19.37.44:108][665]LightingResults: New page: Lighting Build
+[2023.05.22-19.37.44:108][665]LoadErrors: New page: Loading map: M_Map3.umap
+[2023.05.22-19.37.44:144][665]LogWorld: UWorld::CleanupWorld for M_Level2, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-19.37.44:144][665]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-19.37.44:144][665]MapCheck: New page: Map Check
+[2023.05.22-19.37.44:144][665]LightingResults: New page: Lighting Build
+[2023.05.22-19.37.44:158][665]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-19.37.44:653][665]LogStaticMesh: Display: Building static mesh ArmChair...
+[2023.05.22-19.37.44:654][665]LogTexture: Display: Building textures: /Game/Maps/M_Map3.M_Map3:PersistentLevel.Landscape_1.Weightmap_0 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 0.187492 MB), EncodeSpeed: Fast
+[2023.05.22-19.37.44:654][665]LogTexture: Display: Building textures: /Game/Maps/M_Map3.M_Map3:PersistentLevel.Landscape_1.Weightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 0.187492 MB), EncodeSpeed: Fast
+[2023.05.22-19.37.44:654][665]LogTexture: Display: Building textures: /Game/Maps/M_Map3.M_Map3:PersistentLevel.Landscape_1.Weightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 0.187492 MB), EncodeSpeed: Fast
+[2023.05.22-19.37.44:654][665]LogTexture: Display: Building textures: /Game/Maps/M_Map3.M_Map3:PersistentLevel.Landscape_1.Weightmap_8 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 0.187492 MB), EncodeSpeed: Fast
+[2023.05.22-19.37.44:654][665]LogTexture: Display: Building textures: /Game/Maps/M_Map3.M_Map3:PersistentLevel.Landscape_1.Weightmap_17 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 0.187492 MB), EncodeSpeed: Fast
+[2023.05.22-19.37.44:654][665]LogTexture: Display: Building textures: /Game/Maps/M_Map3.M_Map3:PersistentLevel.Landscape_1.Weightmap_16 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 0.187492 MB), EncodeSpeed: Fast
+[2023.05.22-19.37.44:655][665]LogTexture: Display: Building textures: /Game/Maps/M_Map3.M_Map3:PersistentLevel.Landscape_1.Weightmap_15 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 0.187492 MB), EncodeSpeed: Fast
+[2023.05.22-19.37.44:655][665]LogTexture: Display: Building textures: /Game/Maps/M_Map3.M_Map3:PersistentLevel.Landscape_1.Weightmap_11 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 0.187492 MB), EncodeSpeed: Fast
+[2023.05.22-19.37.44:655][665]LogTexture: Display: Building textures: /Game/Maps/M_Map3.M_Map3:PersistentLevel.Landscape_1.Weightmap_18 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 0.187492 MB), EncodeSpeed: Fast
+[2023.05.22-19.37.44:655][665]LogTexture: Display: Building textures: /Game/Maps/M_Map3.M_Map3:PersistentLevel.Landscape_1.Weightmap_14 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 0.187492 MB), EncodeSpeed: Fast
+[2023.05.22-19.37.44:655][665]LogTexture: Display: Building textures: /Game/Maps/M_Map3.M_Map3:PersistentLevel.Landscape_1.Weightmap_2 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 0.187492 MB), EncodeSpeed: Fast
+[2023.05.22-19.37.44:655][665]LogTexture: Display: Building textures: /Game/Maps/M_Map3.M_Map3:PersistentLevel.Landscape_1.Weightmap_1 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 0.187492 MB), EncodeSpeed: Fast
+[2023.05.22-19.37.44:655][665]LogTexture: Display: Building textures: /Game/Maps/M_Map3.M_Map3:PersistentLevel.Landscape_1.Weightmap_32 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 0.187492 MB), EncodeSpeed: Fast
+[2023.05.22-19.37.44:655][665]LogTexture: Display: Building textures: /Game/Maps/M_Map3.M_Map3:PersistentLevel.Landscape_1.Weightmap_21 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 0.187492 MB), EncodeSpeed: Fast
+[2023.05.22-19.37.44:655][665]LogTexture: Display: Building textures: /Game/Maps/M_Map3.M_Map3:PersistentLevel.Landscape_1.Weightmap_33 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 0.187492 MB), EncodeSpeed: Fast
+[2023.05.22-19.37.44:655][665]LogTexture: Display: Building textures: /Game/Maps/M_Map3.M_Map3:PersistentLevel.Landscape_1.Weightmap_35 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 0.187492 MB), EncodeSpeed: Fast
+[2023.05.22-19.37.44:655][665]LogTexture: Display: Building textures: /Game/Maps/M_Map3.M_Map3:PersistentLevel.Landscape_1.Weightmap_34 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 0.187492 MB), EncodeSpeed: Fast
+[2023.05.22-19.37.44:655][665]LogTexture: Display: Building textures: /Game/Maps/M_Map3.M_Map3:PersistentLevel.Landscape_1.Weightmap_20 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 0.187492 MB), EncodeSpeed: Fast
+[2023.05.22-19.37.44:655][665]LogTexture: Display: Building textures: /Game/Maps/M_Map3.M_Map3:PersistentLevel.Landscape_1.Heightmap_2 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.05.22-19.37.44:655][665]LogTexture: Display: Building textures: /Game/Maps/M_Map3.M_Map3:PersistentLevel.Landscape_1.Weightmap_22 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 0.187492 MB), EncodeSpeed: Fast
+[2023.05.22-19.37.44:657][665]LogTexture: Display: Building textures: /Game/Maps/M_Map3.M_Map3:PersistentLevel.Landscape_1.Heightmap_0 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.05.22-19.37.44:658][665]LogDerivedDataCache: C:/Users/garet/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision when writing file C:/Users/garet/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyTEXTURE/3c/4f/759b2230eb97d280e18cc0ac698cf4fa15fc.udd from '/Game/Maps/M_Map3.M_Map3:PersistentLevel.Landscape_1.Weightmap_17'.
+[2023.05.22-19.37.44:658][665]LogTexture: Display: Building textures: /Game/Maps/M_Map3.M_Map3:PersistentLevel.Landscape_1.Heightmap_1 (BGRA8, 512x512 x1x1x1) (Required Memory Estimate: 8.062492 MB), EncodeSpeed: Fast
+[2023.05.22-19.37.44:658][665]LogStaticMesh: Built static mesh [0.59s] /Game/Meshes/Trees/Maple/SM_Maple_leaf_maple_1.SM_Maple_leaf_maple_1
+[2023.05.22-19.37.44:659][665]LogStaticMesh: Built static mesh [0.59s] /Game/Meshes/Trees/SM_Tree2__0.SM_Tree2__0
+[2023.05.22-19.37.44:661][665]LogStaticMesh: Built static mesh [0.59s] /Game/Meshes/Trees/Maple/SM_Maple_bark02_0.SM_Maple_bark02_0
+[2023.05.22-19.37.44:663][665]LogStaticMesh: Built static mesh [0.58s] /Game/Meshes/Furniture/ArmChair.ArmChair
+[2023.05.22-19.37.44:673][665]LogTexture: Display: Building textures: /Game/Materials/Textures/brown-fur_NRM.brown-fur_NRM (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 303.562488 MB), EncodeSpeed: Fast
+[2023.05.22-19.37.44:683][665]LogTexture: Display: Building textures: /Game/Materials/Textures/brown-fur.brown-fur (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 169.145823 MB), EncodeSpeed: Fast
+[2023.05.22-19.37.44:698][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.05.22-19.37.46:109][665]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2023.05.22-19.37.46:586][665]LogWorld: UWorld::CleanupWorld for M_Map3, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-19.37.46:587][665]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-19.37.46:614][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.05.22-19.37.46:621][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.05.22-19.37.46:657][665]LogAudio: Display: Audio Device (ID: 1) registered with world 'M_Map3'.
+[2023.05.22-19.37.46:657][665]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-19.37.46:658][665]LogAIModule: Creating AISystem for world M_Map3
+[2023.05.22-19.37.46:735][665]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.22-19.37.46:751][665]LogNavigationDataBuild: Display:    RebuildAll building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2023.05.22-19.37.46:751][665]LogNavigationDataBuild: Display:    ANavigationData::RebuildAll load time: 0.00s
+[2023.05.22-19.37.46:771][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.05.22-19.37.46:780][665]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.22-19.37.46:780][665]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.163ms to complete.
+[2023.05.22-19.37.46:781][665]LogFileHelpers: Loading map 'M_Map3' took 2.672
+[2023.05.22-19.37.46:789][665]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.001028s (0.680293s overbudget)
+[2023.05.22-19.37.47:669][685]LogNavigationDataBuild: Display:    FRecastNavMeshGenerator::ProcessTileTasksAndGetUpdatedTiles build time: 0.92s
+[2023.05.22-19.37.47:669][685]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.09:624][363]LogInterchangeEngine: [Pending] Importing
+[2023.05.22-19.38.09:626][363]LogInterchangeImport: JPEG file [C:/Users/garet/Downloads/fang.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2023.05.22-19.38.09:659][364]LogInterchangeEngine: [Success] Import Done
+[2023.05.22-19.38.09:661][364]LogTexture: Display: Building textures: /Game/Objects/Testing/fang.fang (TFO_AutoDXT, 2480x3508 x1x1x1) (Required Memory Estimate: 597.433073 MB), EncodeSpeed: Fast
+[2023.05.22-19.38.09:664][364]LogInterchangeEngine: [Success] Import Done
+[2023.05.22-19.38.23:874][460]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.05.22-19.38.27:949][835]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2023.05.22-19.38.27:949][835]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2023.05.22-19.38.27:950][835]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Maps/M_Map3.M_Map3:PersistentLevel.StaticMeshActor_19
+[2023.05.22-19.38.27:950][835]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Maps/M_Map3.M_Map3:PersistentLevel.StaticMeshActor_19
+[2023.05.22-19.38.28:002][836]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.29:506][958]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.30:575][ 41]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.30:884][ 67]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.32:360][191]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.32:823][207]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.41:893][949]LogContentBrowser: Deferred new asset file creation: fang_Mat
+[2023.05.22-19.38.41:918][949]LogContentBrowser: Creating deferred item: fang_Mat
+[2023.05.22-19.38.41:929][950]LogContentBrowser: Renaming the item being created (Deferred Item: fang_Mat).
+[2023.05.22-19.38.43:081][ 68]LogContentBrowser: Attempting asset rename: fang_Mat -> fang_Mat
+[2023.05.22-19.38.43:103][ 68]LogContentBrowser: End creating deferred item fang_Mat
+[2023.05.22-19.38.44:539][166]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.46:271][337]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.46:313][341]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.46:345][344]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.46:397][349]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.46:501][359]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.46:575][366]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.46:627][371]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.46:679][376]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.46:824][390]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.47:501][452]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.48:879][593]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.48:990][603]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.49:483][647]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.49:719][664]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.51:507][809]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.55:272][ 78]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.55:517][ 94]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.55:667][106]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.55:805][114]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.57:754][253]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.57:859][261]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.57:915][265]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.57:941][267]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.57:979][270]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.58:019][273]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.58:072][277]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.58:113][280]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.58:139][282]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.58:166][284]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.58:205][287]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.58:232][289]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.58:259][291]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.58:311][295]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.58:670][323]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.38.59:079][351]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.00:389][432]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.00:543][442]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.00:730][459]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.00:788][464]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.00:825][467]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.01:117][493]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.01:887][564]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.02:094][583]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.02:196][592]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.02:221][594]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.02:569][626]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.02:675][635]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.02:805][645]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.04:003][757]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.04:682][809]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.04:724][814]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.04:768][819]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.05:129][855]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.05:973][919]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.07:756][  9]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.07:889][ 11]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.08:547][ 73]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-19.39.08:554][ 73]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-19.39.08:555][ 73]PIE: New page: PIE session: M_Map3 (22 May 2023, 21:39:08)
+[2023.05.22-19.39.08:555][ 73]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_M_Map3
+[2023.05.22-19.39.08:579][ 73]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023894s)
+[2023.05.22-19.39.08:579][ 73]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/M_Map3.M_Map3 to /Game/Maps/UEDPIE_0_M_Map3.M_Map3 (0.023921s)
+[2023.05.22-19.39.08:579][ 73]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-19.39.08:579][ 73]LogAIModule: Creating AISystem for world M_Map3
+[2023.05.22-19.39.08:579][ 73]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2023.05.22-19.39.08:588][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.05.22-19.39.08:589][ 73]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.05.22-19.39.08:589][ 73]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-19.39.08:589][ 73]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-19.39.08:589][ 73]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-19.39.08:589][ 73]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-19.39.08:589][ 73]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-19.39.08:589][ 73]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-19.39.08:589][ 73]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-19.39.08:589][ 73]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-19.39.08:589][ 73]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-19.39.08:589][ 73]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-19.39.08:589][ 73]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-19.39.08:591][ 73]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-19.39.08:606][ 73]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.05.22-19.39.08:606][ 73]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-19.39.08:606][ 73]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-19.39.08:606][ 73]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-19.39.08:607][ 73]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.05.22-19.39.08:607][ 73]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.05.22-19.39.08:608][ 73]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.05.22-19.39.08:608][ 73]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.05.22-19.39.08:608][ 73]LogInit: FAudioDevice initialized.
+[2023.05.22-19.39.08:608][ 73]LogAudio: Display: Audio Device (ID: 4) registered with world 'M_Map3'.
+[2023.05.22-19.39.08:611][ 73]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.05.22-19.39.08:619][ 73]LogWorld: Bringing World /Game/Maps/UEDPIE_0_M_Map3.M_Map3 up for play (max tick rate 0) at 2023.05.22-20.39.08
+[2023.05.22-19.39.08:619][ 73]LogWorld: Bringing up level for play took: 0.007259
+[2023.05.22-19.39.08:621][ 73]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2023.05.22-19.39.08:624][ 73]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] 1
+[2023.05.22-19.39.08:624][ 73]PIE: Server logged in
+[2023.05.22-19.39.08:625][ 73]PIE: Play in editor total start time 0.071 seconds.
+[2023.05.22-19.39.44:213][536]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-19.39.44:213][536]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_M_Map3
+[2023.05.22-19.39.44:213][536]LogWorld: UWorld::CleanupWorld for M_Map3, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-19.39.44:215][536]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-19.39.44:217][536]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-19.39.44:220][536]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-19.39.44:227][536]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-19.39.44:228][536]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.05.22-19.39.44:229][536]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.05.22-19.39.44:233][536]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-19.39.44:236][536]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.05.22-19.39.44:345][538]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2023.05.22-19.39.46:821][718]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.47:526][773]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.47:549][775]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.47:573][777]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.47:598][779]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.47:620][781]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.47:647][783]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.47:669][785]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.48:114][823]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.48:509][857]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.48:849][883]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.49:736][964]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.49:842][973]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.49:950][980]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.50:561][ 39]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.50:634][ 45]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.50:872][ 68]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.50:917][ 72]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.50:983][ 78]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.51:042][ 83]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.51:339][111]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.51:373][114]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.51:427][119]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.51:461][122]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.51:640][139]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.51:698][144]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.51:741][148]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.52:108][180]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.39.52:961][261]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-19.39.52:969][261]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-19.39.52:969][261]PIE: New page: PIE session: M_Map3 (22 May 2023, 21:39:52)
+[2023.05.22-19.39.52:993][261]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_M_Map3
+[2023.05.22-19.39.53:017][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023739s)
+[2023.05.22-19.39.53:017][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/M_Map3.M_Map3 to /Game/Maps/UEDPIE_0_M_Map3.M_Map3 (0.023774s)
+[2023.05.22-19.39.53:017][261]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-19.39.53:017][261]LogAIModule: Creating AISystem for world M_Map3
+[2023.05.22-19.39.53:017][261]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2023.05.22-19.39.53:025][261]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.05.22-19.39.53:026][261]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.05.22-19.39.53:026][261]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-19.39.53:026][261]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-19.39.53:026][261]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-19.39.53:026][261]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-19.39.53:026][261]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-19.39.53:026][261]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-19.39.53:026][261]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-19.39.53:026][261]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-19.39.53:026][261]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-19.39.53:026][261]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-19.39.53:026][261]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-19.39.53:028][261]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-19.39.53:042][261]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.05.22-19.39.53:042][261]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-19.39.53:042][261]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-19.39.53:042][261]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-19.39.53:042][261]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.05.22-19.39.53:042][261]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.05.22-19.39.53:044][261]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.05.22-19.39.53:044][261]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.05.22-19.39.53:044][261]LogInit: FAudioDevice initialized.
+[2023.05.22-19.39.53:044][261]LogAudio: Display: Audio Device (ID: 5) registered with world 'M_Map3'.
+[2023.05.22-19.39.53:047][261]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.05.22-19.39.53:053][261]LogWorld: Bringing World /Game/Maps/UEDPIE_0_M_Map3.M_Map3 up for play (max tick rate 0) at 2023.05.22-20.39.53
+[2023.05.22-19.39.53:054][261]LogWorld: Bringing up level for play took: 0.007124
+[2023.05.22-19.39.53:055][261]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2023.05.22-19.39.53:058][261]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] 1
+[2023.05.22-19.39.53:059][261]PIE: Server logged in
+[2023.05.22-19.39.53:060][261]PIE: Play in editor total start time 0.091 seconds.
+[2023.05.22-19.40.11:733][993]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-19.40.11:733][993]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_M_Map3
+[2023.05.22-19.40.11:733][993]LogWorld: UWorld::CleanupWorld for M_Map3, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-19.40.11:734][993]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-19.40.11:737][993]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-19.40.11:739][993]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-19.40.11:747][993]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-19.40.11:748][993]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.05.22-19.40.11:749][993]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.05.22-19.40.11:756][993]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.05.22-19.40.11:845][995]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.05.22-19.40.12:643][ 65]Cmd: SELECT NONE
+[2023.05.22-19.40.18:031][529]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.40.18:089][531]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.40.18:561][577]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.40.18:641][584]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.40.18:971][615]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.40.18:998][617]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.40.19:022][619]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.40.19:094][625]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.40.19:138][629]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.40.19:182][633]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.40.19:271][638]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.40.21:069][809]Cmd: SELECT NONE
+[2023.05.22-19.40.32:885][105]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.40.33:513][169]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.40.35:773][394]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.40.35:854][403]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.40.35:998][419]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.40.36:124][433]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.40.36:409][460]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-19.40.37:411][563]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-19.40.37:489][563]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.05.22-19.40.37:499][563]LogPackageLocalizationCache: Processed 44 localized package path(s) for 1 prioritized culture(s) in 0.008436 seconds
+[2023.05.22-19.40.37:519][563]LogSerialization: UsePackageTrailer: 'true'
+[2023.05.22-19.40.37:593][563]LogSavePackage: Moving output files for package: /Game/Maps/M_Map3
+[2023.05.22-19.40.37:594][563]LogSavePackage: Moving '../../../../../Unreal Engine/Projects/GroupProjectGIT/HNDGroupProject/GroupProject/Saved/M_Map33DB4A7F040033398B3EED7BDA7CB8B8F.tmp' to '../../../../../Unreal Engine/Projects/GroupProjectGIT/HNDGroupProject/GroupProject/Content/Maps/M_Map3.umap'
+[2023.05.22-19.40.37:605][563]LogFileHelpers: Saving map 'M_Map3' took 0.125
+[2023.05.22-19.40.37:614][563]LogFileHelpers: InternalPromptForCheckoutAndSave took 202 ms
+[2023.05.22-19.40.37:619][563]AssetCheck: New page: Asset Save: M_Map3
+[2023.05.22-19.40.37:619][563]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/M_Map3.M_Map3
+[2023.05.22-19.40.43:180][ 58]Cmd: SELECT NONE
+[2023.05.22-19.40.45:863][287]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-19.40.45:948][287]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.05.22-19.40.46:043][287]LogSavePackage: Moving output files for package: /Game/Maps/M_Map3
+[2023.05.22-19.40.46:044][287]LogSavePackage: Moving '../../../../../Unreal Engine/Projects/GroupProjectGIT/HNDGroupProject/GroupProject/Saved/M_Map3D5D4FD724C7A1DF944A4AC917130DA3E.tmp' to '../../../../../Unreal Engine/Projects/GroupProjectGIT/HNDGroupProject/GroupProject/Content/Maps/M_Map3.umap'
+[2023.05.22-19.40.46:055][287]LogFileHelpers: Saving map 'M_Map3' took 0.115
+[2023.05.22-19.40.46:063][287]LogFileHelpers: InternalPromptForCheckoutAndSave took 198 ms (total: 401 ms)
+[2023.05.22-19.40.46:068][287]AssetCheck: New page: Asset Save: M_Map3
+[2023.05.22-19.40.46:068][287]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/M_Map3.M_Map3
+[2023.05.22-19.41.22:924][821]Cmd: SELECT NONE
