@@ -6128,3 +6128,285 @@ Potentially Affected Packages:
 [2023.05.22-01.08.50:886][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Interactions/BP_Computer_Auto6
 [2023.05.22-01.08.50:886][249]LogSavePackage: Moving '../../../../../Unreal Engine/Projects/GroupProjectGIT/HNDGroupProject/GroupProject/Saved/BP_Computer_Auto62F79189349A6B2028E24CDB649D7A351.tmp' to '../../../../../Unreal Engine/Projects/GroupProjectGIT/HNDGroupProject/GroupProject/Saved/Autosaves/Game/Blueprints/Interactions/BP_Computer_Auto6.uasset'
 [2023.05.22-01.08.50:886][249]LogFileHelpers: Auto-saving content packages took 0.262
+[2023.05.22-01.12.15:275][636]LogSlate: Window 'Pick Root Widget for New Widget Blueprint' being destroyed
+[2023.05.22-01.12.15:286][636]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2023.05.22-01.12.15:294][636]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2023.05.22-01.12.15:317][637]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2023.05.22-01.12.21:447][356]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WDG_PlayerUI
+[2023.05.22-01.12.21:452][356]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2023.05.22-01.12.21:756][390]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/WDG_PlayerUI.WDG_PlayerUI
+[2023.05.22-01.12.21:756][390]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-01.12.21:762][390]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-01.12.22:092][390]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.22-01.12.22:092][390]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.22-01.12.33:281][662]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.22-01.12.33:281][662]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.22-01.13.46:418][833]BlueprintLog: New page: Compile WDG_PlayerUI
+[2023.05.22-01.13.46:490][833]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.05.22-01.14.07:819][949]LogEditorClassViewer: Warning: Class /Script/InteractiveToolsFramework.GizmoActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.22-01.14.07:819][949]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewGeometryActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.22-01.14.07:820][949]LogEditorClassViewer: Warning: Class /Script/ModelingComponents.PreviewMeshActor has parent /Script/InteractiveToolsFramework.InternalToolFrameworkActor, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.05.22-01.14.50:480][627]BlueprintLog: New page: Compile BP_TopDownCharacter
+[2023.05.22-01.14.50:616][627]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.05.22-01.15.24:067][776]BlueprintLog: New page: Compile BP_TopDownCharacter
+[2023.05.22-01.15.24:177][776]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.05.22-01.15.29:577][316]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.05.22-01.15.30:542][316]LogSlate: Window 'Save Content' being destroyed
+[2023.05.22-01.15.30:552][316]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-01.15.30:614][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Objects/Testing/Box" FILE="../../../../../Unreal Engine/Projects/GroupProjectGIT/HNDGroupProject/GroupProject/Content/Objects/Testing/Box.uasset" SILENT=true
+[2023.05.22-01.15.30:616][316]LogSavePackage: Moving output files for package: /Game/Objects/Testing/Box
+[2023.05.22-01.15.30:617][316]LogSavePackage: Moving '../../../../../Unreal Engine/Projects/GroupProjectGIT/HNDGroupProject/GroupProject/Saved/BoxE2511CBD4143BDC4313C07B3C2FFC84B.tmp' to '../../../../../Unreal Engine/Projects/GroupProjectGIT/HNDGroupProject/GroupProject/Content/Objects/Testing/Box.uasset'
+[2023.05.22-01.15.30:618][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_BoxNew" FILE="../../../../../Unreal Engine/Projects/GroupProjectGIT/HNDGroupProject/GroupProject/Content/Blueprints/BP_BoxNew.uasset" SILENT=true
+[2023.05.22-01.15.30:621][316]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_BoxNew
+[2023.05.22-01.15.30:621][316]LogSavePackage: Moving '../../../../../Unreal Engine/Projects/GroupProjectGIT/HNDGroupProject/GroupProject/Saved/BP_BoxNew70D9D05C492D1D8344DCBE96980698B4.tmp' to '../../../../../Unreal Engine/Projects/GroupProjectGIT/HNDGroupProject/GroupProject/Content/Blueprints/BP_BoxNew.uasset'
+[2023.05.22-01.15.30:659][316]LogSavePackage: Moving output files for package: /Game/Blueprints/Interactions/BP_Computer
+[2023.05.22-01.15.30:659][316]LogSavePackage: Moving '../../../../../Unreal Engine/Projects/GroupProjectGIT/HNDGroupProject/GroupProject/Saved/BP_Computer4285F03E419E2E65802966BCA4E37505.tmp' to '../../../../../Unreal Engine/Projects/GroupProjectGIT/HNDGroupProject/GroupProject/Content/Blueprints/Interactions/BP_Computer.uasset'
+[2023.05.22-01.15.30:662][316]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/7/K7/HM0PR9BTZK7N4MBF0TASCW
+[2023.05.22-01.15.30:662][316]LogSavePackage: Moving '../../../../../Unreal Engine/Projects/GroupProjectGIT/HNDGroupProject/GroupProject/Saved/HM0PR9BTZK7N4MBF0TASCW57C3CE384F9C93C3DD535894FC2BBD6B.tmp' to '../../../../../Unreal Engine/Projects/GroupProjectGIT/HNDGroupProject/GroupProject/Content/__ExternalActors__/TopDown/Maps/TopDownMap/7/K7/HM0PR9BTZK7N4MBF0TASCW.uasset'
+[2023.05.22-01.15.30:666][316]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_ShopSpawnItemLoc
+[2023.05.22-01.15.30:666][316]LogSavePackage: Moving '../../../../../Unreal Engine/Projects/GroupProjectGIT/HNDGroupProject/GroupProject/Saved/BP_ShopSpawnItemLocBA28240948486766B1E1B2BDEE1CADA4.tmp' to '../../../../../Unreal Engine/Projects/GroupProjectGIT/HNDGroupProject/GroupProject/Content/Blueprints/BP_ShopSpawnItemLoc.uasset'
+[2023.05.22-01.15.30:706][316]LogSavePackage: Moving output files for package: /Game/TopDown/Blueprints/BP_TopDownCharacter
+[2023.05.22-01.15.30:707][316]LogSavePackage: Moving '../../../../../Unreal Engine/Projects/GroupProjectGIT/HNDGroupProject/GroupProject/Saved/BP_TopDownCharacter76E2700D4831694C084081A82E0765BE.tmp' to '../../../../../Unreal Engine/Projects/GroupProjectGIT/HNDGroupProject/GroupProject/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset'
+[2023.05.22-01.15.30:709][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WDG_PlayerUI" FILE="../../../../../Unreal Engine/Projects/GroupProjectGIT/HNDGroupProject/GroupProject/Content/UI/WDG_PlayerUI.uasset" SILENT=true
+[2023.05.22-01.15.30:712][316]LogSavePackage: Moving output files for package: /Game/UI/WDG_PlayerUI
+[2023.05.22-01.15.30:712][316]LogSavePackage: Moving '../../../../../Unreal Engine/Projects/GroupProjectGIT/HNDGroupProject/GroupProject/Saved/WDG_PlayerUI9D71F84E4F9557B5FB7E44A39F700A95.tmp' to '../../../../../Unreal Engine/Projects/GroupProjectGIT/HNDGroupProject/GroupProject/Content/UI/WDG_PlayerUI.uasset'
+[2023.05.22-01.15.30:722][316]LogFileHelpers: InternalPromptForCheckoutAndSave took 169 ms (total: 5.38 sec)
+[2023.05.22-01.15.30:786][316]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/LvL_MainMenu.LvL_MainMenu
+[2023.05.22-01.15.30:787][316]Cmd: MAP LOAD FILE="../../../../../Unreal Engine/Projects/GroupProjectGIT/HNDGroupProject/GroupProject/Content/Levels/LvL_MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.22-01.15.30:787][316]LightingResults: New page: Lighting Build
+[2023.05.22-01.15.30:787][316]LoadErrors: New page: Loading map: LvL_MainMenu.umap
+[2023.05.22-01.15.30:792][316]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-01.15.30:792][316]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-01.15.30:798][316]LogContentBundle: [Container: TopDownMap] Deleting container.
+[2023.05.22-01.15.30:798][316]MapCheck: New page: Map Check
+[2023.05.22-01.15.30:798][316]LightingResults: New page: Lighting Build
+[2023.05.22-01.15.30:850][316]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-01.15.30:854][316]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.05.22-01.15.30:859][316]LogWorld: UWorld::CleanupWorld for LvL_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-01.15.30:859][316]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-01.15.30:910][316]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.05.22-01.15.30:962][316]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.05.22-01.15.30:970][316]LogAudio: Display: Audio Device (ID: 1) registered with world 'LvL_MainMenu'.
+[2023.05.22-01.15.30:971][316]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-01.15.30:971][316]LogAIModule: Creating AISystem for world LvL_MainMenu
+[2023.05.22-01.15.30:987][316]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.22-01.15.31:039][316]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.05.22-01.15.31:050][316]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.22-01.15.31:050][316]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.152ms to complete.
+[2023.05.22-01.15.31:050][316]LogFileHelpers: Loading map 'LvL_MainMenu' took 0.264
+[2023.05.22-01.15.31:076][316]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.22-01.15.31:076][316]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter
+[2023.05.22-01.15.31:076][316]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Objects/Testing/Box.Box
+[2023.05.22-01.15.31:076][316]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Interactions/BP_Computer.BP_Computer
+[2023.05.22-01.15.31:076][316]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/WDG_PlayerUI.WDG_PlayerUI
+[2023.05.22-01.15.31:076][316]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_ShopSpawnItemLoc.BP_ShopSpawnItemLoc
+[2023.05.22-01.15.31:076][316]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_BoxNew.BP_BoxNew
+[2023.05.22-01.15.32:087][422]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-01.15.32:096][422]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-01.15.32:096][422]PIE: New page: PIE session: LvL_MainMenu (22 May 2023, 03:15:32)
+[2023.05.22-01.15.32:134][422]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LvL_MainMenu
+[2023.05.22-01.15.32:135][422]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001062s)
+[2023.05.22-01.15.32:135][422]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LvL_MainMenu.LvL_MainMenu to /Game/Levels/UEDPIE_0_LvL_MainMenu.LvL_MainMenu (0.001096s)
+[2023.05.22-01.15.32:135][422]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-01.15.32:136][422]LogAIModule: Creating AISystem for world LvL_MainMenu
+[2023.05.22-01.15.32:136][422]LogPlayLevel: PIE: World Init took: (0.000624s)
+[2023.05.22-01.15.32:191][422]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.05.22-01.15.32:194][422]LogAudio: Display: Creating Audio Device:                 Id: 49, Scope: Unique, Realtime: True
+[2023.05.22-01.15.32:194][422]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-01.15.32:194][422]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-01.15.32:194][422]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-01.15.32:194][422]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-01.15.32:194][422]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-01.15.32:194][422]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-01.15.32:194][422]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-01.15.32:194][422]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-01.15.32:194][422]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-01.15.32:194][422]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-01.15.32:194][422]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-01.15.32:196][422]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-01.15.32:210][422]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.05.22-01.15.32:210][422]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-01.15.32:210][422]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-01.15.32:210][422]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-01.15.32:211][422]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=49
+[2023.05.22-01.15.32:211][422]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=49
+[2023.05.22-01.15.32:212][422]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=49
+[2023.05.22-01.15.32:212][422]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=49
+[2023.05.22-01.15.32:212][422]LogInit: FAudioDevice initialized.
+[2023.05.22-01.15.32:212][422]LogAudio: Display: Audio Device (ID: 49) registered with world 'LvL_MainMenu'.
+[2023.05.22-01.15.32:215][422]LogLoad: Game class is 'BP_MenuGameMode_C'
+[2023.05.22-01.15.32:216][422]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LvL_MainMenu.LvL_MainMenu up for play (max tick rate 0) at 2023.05.22-02.15.32
+[2023.05.22-01.15.32:216][422]LogWorld: Bringing up level for play took: 0.000250
+[2023.05.22-01.15.32:217][422]LogOnline: OSS: Created online subsystem instance for: :Context_84
+[2023.05.22-01.15.32:218][422]PIE: Server logged in
+[2023.05.22-01.15.32:220][422]PIE: Play in editor total start time 0.124 seconds.
+[2023.05.22-01.15.33:487][567]LogLongPackageNames: Warning: Can't Find URL: None: . Invalidating and reverting to Default URL.
+[2023.05.22-01.15.33:489][567]LogLongPackageNames: Warning: Can't Find URL: None: . Invalidating and reverting to Default URL.
+[2023.05.22-01.15.33:489][567]LogNet: Browse: /Game/TopDown/Maps/TopDownMap
+[2023.05.22-01.15.33:489][567]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/TopDown/Maps/TopDownMap
+[2023.05.22-01.15.33:489][567]LogNet: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/TopDown/Maps/TopDownMap'
+[2023.05.22-01.15.33:489][567]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/TopDown/Maps/TopDownMap
+[2023.05.22-01.15.33:489][567]LogNet: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/TopDown/Maps/TopDownMap'
+[2023.05.22-01.15.33:494][568]LogNet: Browse: /Game/TopDown/Maps/TopDownMap?closed
+[2023.05.22-01.15.33:494][568]LogNet: Connection failed; returning to Entry
+[2023.05.22-01.15.33:494][568]LogLoad: LoadMap: /Game/TopDown/Maps/TopDownMap?closed
+[2023.05.22-01.15.33:494][568]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_LvL_MainMenu
+[2023.05.22-01.15.33:495][568]LogWorld: UWorld::CleanupWorld for LvL_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-01.15.33:495][568]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-01.15.33:583][568]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-01.15.33:585][568]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.05.22-01.15.33:595][568]LogAudio: Display: Audio Device (ID: 49) registered with world 'TopDownMap'.
+[2023.05.22-01.15.33:596][568]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-01.15.33:596][568]LogAIModule: Creating AISystem for world TopDownMap
+[2023.05.22-01.15.33:596][568]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.05.22-01.15.33:596][568]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.05.22-01.15.33:596][568]LogWorldPartition: UWorldPartition::Initialize(Asset=TopDownMap, IsEditor=0, bPIEWorldTravel=1 IsGame=0, IsCooking=0)
+[2023.05.22-01.15.33:605][568]LogWorldPartition: Display: GenerateStreaming started...
+[2023.05.22-01.15.33:605][568]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.05.22-01.15.33:605][568]LogWorldPartition: Display: GetPartitionedActors took 4 us (total: 244 us)
+[2023.05.22-01.15.33:626][568]LogWorldPartition: Display: GenerateStreaming took 21 ms (total: 44 ms)
+[2023.05.22-01.15.33:627][568]LogContentBundle: [Container: TopDownMap] Creating new contrainer.
+[2023.05.22-01.15.33:627][568]LogWorldPartition: Display: WorldPartition initialize took 30 ms (total: 1.01 sec)
+[2023.05.22-01.15.33:627][568]LogPlayLevel: PIE: World Init took: (0.031587s)
+[2023.05.22-01.15.33:627][568]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.05.22-01.15.33:654][568]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.05.22-02.15.33
+[2023.05.22-01.15.33:656][568]LogWorld: Bringing up level for play took: 0.029016
+[2023.05.22-01.15.33:659][568]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] 2
+[2023.05.22-01.15.33:659][568]LogWorldPartition: New Streaming Source: BP_TopDownController_C_0 -> Position: X=0.000 Y=-480.000 Z=98.150
+[2023.05.22-01.15.33:659][568]LogLoad: Took 0.164547 seconds to LoadMap(/Game/TopDown/Maps/TopDownMap)
+[2023.05.22-01.15.33:712][568]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.05.22-01.15.40:987][431]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] Item Grabbed
+[2023.05.22-01.15.54:596][ 56]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.05.22-01.15.54:596][ 56]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.05.22-01.15.56:594][295]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2023.05.22-01.15.58:984][579]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-01.15.58:984][579]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.05.22-01.15.58:985][579]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-01.15.58:985][579]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-01.15.58:985][579]LogContentBundle: [Container: TopDownMap] Deleting container.
+[2023.05.22-01.15.58:988][579]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-01.15.58:993][579]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-01.15.59:043][579]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-01.15.59:044][579]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=49
+[2023.05.22-01.15.59:046][579]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=49
+[2023.05.22-01.15.59:049][579]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-01.15.59:053][579]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.05.22-01.15.59:081][580]LogPlayLevel: Display: Destroying online subsystem :Context_84
+[2023.05.22-01.16.02:783][ 15]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-01.16.02:790][ 15]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-01.16.02:790][ 15]PIE: New page: PIE session: LvL_MainMenu (22 May 2023, 03:16:02)
+[2023.05.22-01.16.02:825][ 15]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_LvL_MainMenu
+[2023.05.22-01.16.02:826][ 15]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000911s)
+[2023.05.22-01.16.02:826][ 15]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/LvL_MainMenu.LvL_MainMenu to /Game/Levels/UEDPIE_0_LvL_MainMenu.LvL_MainMenu (0.000937s)
+[2023.05.22-01.16.02:826][ 15]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-01.16.02:826][ 15]LogAIModule: Creating AISystem for world LvL_MainMenu
+[2023.05.22-01.16.02:826][ 15]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2023.05.22-01.16.02:876][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.05.22-01.16.02:879][ 15]LogAudio: Display: Creating Audio Device:                 Id: 50, Scope: Unique, Realtime: True
+[2023.05.22-01.16.02:879][ 15]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-01.16.02:879][ 15]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-01.16.02:879][ 15]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-01.16.02:879][ 15]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-01.16.02:879][ 15]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-01.16.02:879][ 15]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-01.16.02:879][ 15]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-01.16.02:879][ 15]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-01.16.02:879][ 15]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-01.16.02:879][ 15]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-01.16.02:879][ 15]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-01.16.02:881][ 15]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-01.16.02:895][ 15]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.05.22-01.16.02:896][ 15]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-01.16.02:896][ 15]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-01.16.02:896][ 15]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-01.16.02:896][ 15]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=50
+[2023.05.22-01.16.02:896][ 15]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=50
+[2023.05.22-01.16.02:898][ 15]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=50
+[2023.05.22-01.16.02:898][ 15]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=50
+[2023.05.22-01.16.02:898][ 15]LogInit: FAudioDevice initialized.
+[2023.05.22-01.16.02:898][ 15]LogAudio: Display: Audio Device (ID: 50) registered with world 'LvL_MainMenu'.
+[2023.05.22-01.16.02:901][ 15]LogLoad: Game class is 'BP_MenuGameMode_C'
+[2023.05.22-01.16.02:901][ 15]LogWorld: Bringing World /Game/Levels/UEDPIE_0_LvL_MainMenu.LvL_MainMenu up for play (max tick rate 0) at 2023.05.22-02.16.02
+[2023.05.22-01.16.02:901][ 15]LogWorld: Bringing up level for play took: 0.000351
+[2023.05.22-01.16.02:903][ 15]LogOnline: OSS: Created online subsystem instance for: :Context_85
+[2023.05.22-01.16.02:905][ 15]PIE: Server logged in
+[2023.05.22-01.16.02:906][ 15]PIE: Play in editor total start time 0.116 seconds.
+[2023.05.22-01.16.05:701][342]LogLongPackageNames: Warning: Can't Find URL: None: . Invalidating and reverting to Default URL.
+[2023.05.22-01.16.05:702][342]LogLongPackageNames: Warning: Can't Find URL: None: . Invalidating and reverting to Default URL.
+[2023.05.22-01.16.05:702][342]LogNet: Browse: /Game/TopDown/Maps/TopDownMap
+[2023.05.22-01.16.05:702][342]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/TopDown/Maps/TopDownMap
+[2023.05.22-01.16.05:702][342]LogNet: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/TopDown/Maps/TopDownMap'
+[2023.05.22-01.16.05:702][342]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/TopDown/Maps/TopDownMap
+[2023.05.22-01.16.05:702][342]LogNet: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/TopDown/Maps/TopDownMap'
+[2023.05.22-01.16.05:709][343]LogNet: Browse: /Game/TopDown/Maps/TopDownMap?closed
+[2023.05.22-01.16.05:709][343]LogNet: Connection failed; returning to Entry
+[2023.05.22-01.16.05:709][343]LogLoad: LoadMap: /Game/TopDown/Maps/TopDownMap?closed
+[2023.05.22-01.16.05:709][343]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_LvL_MainMenu
+[2023.05.22-01.16.05:710][343]LogWorld: UWorld::CleanupWorld for LvL_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-01.16.05:710][343]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-01.16.05:786][343]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-01.16.05:788][343]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.05.22-01.16.05:797][343]LogAudio: Display: Audio Device (ID: 50) registered with world 'TopDownMap'.
+[2023.05.22-01.16.05:798][343]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-01.16.05:798][343]LogAIModule: Creating AISystem for world TopDownMap
+[2023.05.22-01.16.05:798][343]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.05.22-01.16.05:798][343]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.05.22-01.16.05:798][343]LogWorldPartition: UWorldPartition::Initialize(Asset=TopDownMap, IsEditor=0, bPIEWorldTravel=1 IsGame=0, IsCooking=0)
+[2023.05.22-01.16.05:806][343]LogWorldPartition: Display: GenerateStreaming started...
+[2023.05.22-01.16.05:806][343]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.05.22-01.16.05:806][343]LogWorldPartition: Display: GetPartitionedActors took 4 us (total: 248 us)
+[2023.05.22-01.16.05:822][343]LogWorldPartition: Display: GenerateStreaming took 16 ms (total: 60 ms)
+[2023.05.22-01.16.05:823][343]LogContentBundle: [Container: TopDownMap] Creating new contrainer.
+[2023.05.22-01.16.05:823][343]LogWorldPartition: Display: WorldPartition initialize took 24 ms (total: 1.04 sec)
+[2023.05.22-01.16.05:823][343]LogPlayLevel: PIE: World Init took: (0.025480s)
+[2023.05.22-01.16.05:823][343]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.05.22-01.16.05:849][343]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.05.22-02.16.05
+[2023.05.22-01.16.05:852][343]LogWorld: Bringing up level for play took: 0.028757
+[2023.05.22-01.16.05:856][343]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] 2
+[2023.05.22-01.16.05:856][343]LogWorldPartition: New Streaming Source: BP_TopDownController_C_0 -> Position: X=0.000 Y=-480.000 Z=98.150
+[2023.05.22-01.16.05:856][343]LogLoad: Took 0.146713 seconds to LoadMap(/Game/TopDown/Maps/TopDownMap)
+[2023.05.22-01.16.05:908][343]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.05.22-01.16.07:654][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-01.16.07:655][537]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.05.22-01.16.07:655][537]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-01.16.07:655][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-01.16.07:655][537]LogContentBundle: [Container: TopDownMap] Deleting container.
+[2023.05.22-01.16.07:658][537]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-01.16.07:664][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-01.16.07:715][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-01.16.07:715][537]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=50
+[2023.05.22-01.16.07:716][537]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=50
+[2023.05.22-01.16.07:723][537]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.05.22-01.16.07:751][538]LogPlayLevel: Display: Destroying online subsystem :Context_85
+[2023.05.22-01.16.18:319][735]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.05.22-01.16.18:384][735]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDown/Maps/TopDownMap.TopDownMap
+[2023.05.22-01.16.18:384][735]Cmd: MAP LOAD FILE="../../../../../Unreal Engine/Projects/GroupProjectGIT/HNDGroupProject/GroupProject/Content/TopDown/Maps/TopDownMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.22-01.16.18:384][735]LightingResults: New page: Lighting Build
+[2023.05.22-01.16.18:384][735]LoadErrors: New page: Loading map: TopDownMap.umap
+[2023.05.22-01.16.18:386][735]LogWorld: UWorld::CleanupWorld for LvL_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-01.16.18:386][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-01.16.18:386][735]MapCheck: New page: Map Check
+[2023.05.22-01.16.18:386][735]LightingResults: New page: Lighting Build
+[2023.05.22-01.16.18:436][735]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-01.16.18:438][735]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.05.22-01.16.18:441][735]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-01.16.18:441][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-01.16.18:493][735]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.05.22-01.16.18:544][735]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.05.22-01.16.18:554][735]LogAudio: Display: Audio Device (ID: 1) registered with world 'TopDownMap'.
+[2023.05.22-01.16.18:554][735]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-01.16.18:554][735]LogAIModule: Creating AISystem for world TopDownMap
+[2023.05.22-01.16.18:555][735]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.05.22-01.16.18:555][735]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.05.22-01.16.18:555][735]LogWorldPartition: UWorldPartition::Initialize(Asset=TopDownMap, IsEditor=1, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.05.22-01.16.18:587][735]LogContentBundle: [Container: TopDownMap] Creating new contrainer.
+[2023.05.22-01.16.18:587][735]LogWorldPartition: Display: WorldPartition initialize took 31 ms (total: 1.07 sec)
+[2023.05.22-01.16.18:636][735]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.22-01.16.18:637][735]LogNavigationDataBuild: Display:    RebuildAll building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2023.05.22-01.16.18:637][735]LogNavigationDataBuild: Display:    ANavigationData::RebuildAll load time: 0.00s
+[2023.05.22-01.16.18:693][735]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.05.22-01.16.18:703][735]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.22-01.16.18:704][735]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.255ms to complete.
+[2023.05.22-01.16.18:704][735]LogFileHelpers: Loading map 'TopDownMap' took 0.320
+[2023.05.22-01.16.18:749][736]LogNavigationDataBuild: Display:    FRecastNavMeshGenerator::ProcessTileTasksAndGetUpdatedTiles build time: 0.11s
+[2023.05.22-01.16.18:749][736]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.RecastNavMesh-Default).
