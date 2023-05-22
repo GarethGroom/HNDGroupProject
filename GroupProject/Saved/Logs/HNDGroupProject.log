@@ -11181,3 +11181,536 @@ UnknownFunction []
 [2023.05.22-18.14.00:882][584]LogNavigationDataBuild: Display:    FRecastNavMeshGenerator::ProcessTileTasksAndGetUpdatedTiles build time: 0.06s
 [2023.05.22-18.14.00:882][584]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map1.M_Map1:PersistentLevel.RecastNavMesh-Default).
 [2023.05.22-18.14.03:861][822]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2023.05.22-18.15.09:787][152]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2023.05.22-18.15.09:862][152]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/M_Level2.M_Level2
+[2023.05.22-18.15.09:862][152]Cmd: MAP LOAD FILE="../../../../../../Users/Dylan/Documents/UnrealRepos/Climate/HNDGroupProject/GroupProject/Content/Maps/M_Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.22-18.15.09:862][152]LightingResults: New page: Lighting Build
+[2023.05.22-18.15.09:862][152]LoadErrors: New page: Loading map: M_Level2.umap
+[2023.05.22-18.15.09:864][152]LogWorld: UWorld::CleanupWorld for M_Map1, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-18.15.09:864][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-18.15.09:864][152]MapCheck: New page: Map Check
+[2023.05.22-18.15.09:864][152]LightingResults: New page: Lighting Build
+[2023.05.22-18.15.09:873][152]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-18.15.09:875][152]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.05.22-18.15.09:901][152]LogWorld: UWorld::CleanupWorld for M_Level2, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-18.15.09:901][152]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-18.15.09:913][152]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.05.22-18.15.09:921][152]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.05.22-18.15.09:941][152]LogAudio: Display: Audio Device (ID: 1) registered with world 'M_Level2'.
+[2023.05.22-18.15.09:941][152]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-18.15.09:942][152]LogAIModule: Creating AISystem for world M_Level2
+[2023.05.22-18.15.09:974][152]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.22-18.15.09:976][152]LogNavigationDataBuild: Display:    RebuildAll building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2023.05.22-18.15.09:976][152]LogNavigationDataBuild: Display:    ANavigationData::RebuildAll load time: 0.00s
+[2023.05.22-18.15.09:988][152]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.05.22-18.15.09:995][152]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.22-18.15.09:995][152]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.087ms to complete.
+[2023.05.22-18.15.09:995][152]LogFileHelpers: Loading map 'M_Level2' took 0.132
+[2023.05.22-18.15.10:035][153]LogNavigationDataBuild: Display:    FRecastNavMeshGenerator::ProcessTileTasksAndGetUpdatedTiles build time: 0.06s
+[2023.05.22-18.15.10:035][153]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Level2.M_Level2:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-18.15.16:144][695]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.05.22-18.15.21:236][234]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.05.22-18.15.38:005][371]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2023.05.22-18.18.18:284][922]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.05.22-18.18.18:375][922]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/M_Map3.M_Map3
+[2023.05.22-18.18.18:375][922]Cmd: MAP LOAD FILE="../../../../../../Users/Dylan/Documents/UnrealRepos/Climate/HNDGroupProject/GroupProject/Content/Maps/M_Map3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.22-18.18.18:375][922]LightingResults: New page: Lighting Build
+[2023.05.22-18.18.18:375][922]LoadErrors: New page: Loading map: M_Map3.umap
+[2023.05.22-18.18.18:377][922]LogWorld: UWorld::CleanupWorld for M_Level2, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-18.18.18:377][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-18.18.18:377][922]MapCheck: New page: Map Check
+[2023.05.22-18.18.18:377][922]LightingResults: New page: Lighting Build
+[2023.05.22-18.18.18:385][922]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-18.18.18:389][922]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display: ================================================
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display: Total job queries 2206, among them cache hits 1274 (57.75%)
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display: Tracking 930 distinct input hashes that result in 381 distinct outputs (40.97%)
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display: RAM used: 6.31 MB (0.01 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.38%
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display: Shaders Compiled: 284
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display: Jobs assigned 284, completed 284 (100.00%)
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display: Average time worker was idle: 278.01 s
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display: Time job spent in pending queue: average 0.47 s, longest 4.67 s
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display: Job execution time: average 1.46 s, max 2.70 s
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display: Job life time (pending + execution): average 1.93 s, max 5.70
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 57.78 s
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display: Jobs were issued in 284 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display: Average processing rate: 4.92 jobs/sec
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display: Total thread time: 341.86 s
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display: Total thread preprocess time: 19.19 s
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display: Percentage time preprocessing: 5.61%
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display: Effective parallelization: 5.92 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   14 times, average 1.77 sec, max 2.13 sec, min 1.62 sec)
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   14 times, average 1.74 sec, max 2.07 sec, min 1.62 sec)
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display:           TShadowDepthVSVertexShadowDepth_PerspectiveCorrect (compiled    1 times, average 1.72 sec, max 1.72 sec, min 1.72 sec)
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled   14 times, average 1.72 sec, max 2.04 sec, min 1.51 sec)
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled   14 times, average 1.68 sec, max 1.99 sec, min 1.54 sec)
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 7.70% of total time (compiled   26 times, average 1.01 sec, max 1.87 sec, min 0.54 sec)
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 7.23% of total time (compiled   14 times, average 1.77 sec, max 2.13 sec, min 1.62 sec)
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 7.13% of total time (compiled   14 times, average 1.74 sec, max 2.07 sec, min 1.62 sec)
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 7.04% of total time (compiled   14 times, average 1.72 sec, max 2.04 sec, min 1.51 sec)
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 6.93% of total time (compiled   26 times, average 0.91 sec, max 1.58 sec, min 0.53 sec)
+[2023.05.22-18.18.18:415][922]LogShaderCompilers: Display: ================================================
+[2023.05.22-18.18.18:417][922]LogWorld: UWorld::CleanupWorld for M_Map3, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-18.18.18:417][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-18.18.18:433][922]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.05.22-18.18.18:441][922]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.05.22-18.18.18:469][922]LogAudio: Display: Audio Device (ID: 1) registered with world 'M_Map3'.
+[2023.05.22-18.18.18:469][922]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-18.18.18:470][922]LogAIModule: Creating AISystem for world M_Map3
+[2023.05.22-18.18.18:522][922]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.22-18.18.18:534][922]LogNavigationDataBuild: Display:    RebuildAll building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2023.05.22-18.18.18:534][922]LogNavigationDataBuild: Display:    ANavigationData::RebuildAll load time: 0.00s
+[2023.05.22-18.18.18:555][922]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.05.22-18.18.18:562][922]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.22-18.18.18:562][922]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.091ms to complete.
+[2023.05.22-18.18.18:562][922]LogFileHelpers: Loading map 'M_Map3' took 0.188
+[2023.05.22-18.18.19:312][949]LogNavigationDataBuild: Display:    FRecastNavMeshGenerator::ProcessTileTasksAndGetUpdatedTiles build time: 0.78s
+[2023.05.22-18.18.19:312][949]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-18.18.35:109][739]Cmd: SELECT NONE
+[2023.05.22-18.18.37:515][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.05.22-18.18.37:519][ 19]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-18.18.37:562][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2023.05.22-18.18.37:646][ 19]LogSavePackage: Moving output files for package: /Game/Maps/M_Map3
+[2023.05.22-18.18.37:646][ 19]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/UnrealRepos/Climate/HNDGroupProject/GroupProject/Saved/M_Map34D06276E40E0DD138CB5E187D0B5CF5E.tmp' to '../../../../../../Users/Dylan/Documents/UnrealRepos/Climate/HNDGroupProject/GroupProject/Content/Maps/M_Map3.umap'
+[2023.05.22-18.18.37:654][ 19]LogFileHelpers: Saving map 'M_Map3' took 0.099
+[2023.05.22-18.18.37:658][ 19]LogFileHelpers: InternalPromptForCheckoutAndSave took 139 ms (total: 38.5 sec)
+[2023.05.22-18.18.37:663][ 19]AssetCheck: New page: Asset Save: M_Map3
+[2023.05.22-18.18.37:663][ 19]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/M_Map3.M_Map3
+[2023.05.22-18.19.46:071][273]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.05.22-18.19.46:139][273]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/M_Map1.M_Map1
+[2023.05.22-18.19.46:139][273]Cmd: MAP LOAD FILE="../../../../../../Users/Dylan/Documents/UnrealRepos/Climate/HNDGroupProject/GroupProject/Content/Maps/M_Map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.22-18.19.46:139][273]LightingResults: New page: Lighting Build
+[2023.05.22-18.19.46:139][273]LoadErrors: New page: Loading map: M_Map1.umap
+[2023.05.22-18.19.46:189][273]LogWorld: UWorld::CleanupWorld for M_Map3, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-18.19.46:189][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-18.19.46:189][273]MapCheck: New page: Map Check
+[2023.05.22-18.19.46:189][273]LightingResults: New page: Lighting Build
+[2023.05.22-18.19.46:199][273]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-18.19.46:202][273]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.05.22-18.19.46:230][273]LogWorld: UWorld::CleanupWorld for M_Map1, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-18.19.46:230][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-18.19.46:242][273]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.05.22-18.19.46:249][273]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.05.22-18.19.46:273][273]LogAudio: Display: Audio Device (ID: 1) registered with world 'M_Map1'.
+[2023.05.22-18.19.46:273][273]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-18.19.46:273][273]LogAIModule: Creating AISystem for world M_Map1
+[2023.05.22-18.19.46:296][273]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.22-18.19.46:297][273]LogNavigationDataBuild: Display:    RebuildAll building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2023.05.22-18.19.46:297][273]LogNavigationDataBuild: Display:    ANavigationData::RebuildAll load time: 0.00s
+[2023.05.22-18.19.46:308][273]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.05.22-18.19.46:315][273]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.22-18.19.46:317][273]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2.421ms to complete.
+[2023.05.22-18.19.46:317][273]LogFileHelpers: Loading map 'M_Map1' took 0.178
+[2023.05.22-18.19.46:362][274]LogNavigationDataBuild: Display:    FRecastNavMeshGenerator::ProcessTileTasksAndGetUpdatedTiles build time: 0.07s
+[2023.05.22-18.19.46:362][274]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map1.M_Map1:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-18.19.46:847][311]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.05.22-18.19.46:937][311]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/M_Map3.M_Map3
+[2023.05.22-18.19.46:938][311]Cmd: MAP LOAD FILE="../../../../../../Users/Dylan/Documents/UnrealRepos/Climate/HNDGroupProject/GroupProject/Content/Maps/M_Map3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.22-18.19.46:938][311]LightingResults: New page: Lighting Build
+[2023.05.22-18.19.46:938][311]LoadErrors: New page: Loading map: M_Map3.umap
+[2023.05.22-18.19.46:939][311]LogWorld: UWorld::CleanupWorld for M_Map1, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-18.19.46:939][311]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-18.19.46:940][311]MapCheck: New page: Map Check
+[2023.05.22-18.19.46:940][311]LightingResults: New page: Lighting Build
+[2023.05.22-18.19.46:947][311]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-18.19.46:950][311]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.05.22-18.19.46:980][311]LogWorld: UWorld::CleanupWorld for M_Map3, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-18.19.46:980][311]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-18.19.46:995][311]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.05.22-18.19.47:002][311]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.05.22-18.19.47:031][311]LogAudio: Display: Audio Device (ID: 1) registered with world 'M_Map3'.
+[2023.05.22-18.19.47:031][311]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-18.19.47:031][311]LogAIModule: Creating AISystem for world M_Map3
+[2023.05.22-18.19.47:084][311]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.22-18.19.47:096][311]LogNavigationDataBuild: Display:    RebuildAll building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2023.05.22-18.19.47:096][311]LogNavigationDataBuild: Display:    ANavigationData::RebuildAll load time: 0.00s
+[2023.05.22-18.19.47:112][311]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.05.22-18.19.47:122][311]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.22-18.19.47:122][311]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.096ms to complete.
+[2023.05.22-18.19.47:122][311]LogFileHelpers: Loading map 'M_Map3' took 0.185
+[2023.05.22-18.19.47:854][336]LogNavigationDataBuild: Display:    FRecastNavMeshGenerator::ProcessTileTasksAndGetUpdatedTiles build time: 0.76s
+[2023.05.22-18.19.47:854][336]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-18.22.02:015][656]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.05.22-18.22.02:084][656]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/M_Map1.M_Map1
+[2023.05.22-18.22.02:084][656]Cmd: MAP LOAD FILE="../../../../../../Users/Dylan/Documents/UnrealRepos/Climate/HNDGroupProject/GroupProject/Content/Maps/M_Map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.22-18.22.02:084][656]LightingResults: New page: Lighting Build
+[2023.05.22-18.22.02:084][656]LoadErrors: New page: Loading map: M_Map1.umap
+[2023.05.22-18.22.02:088][656]LogWorld: UWorld::CleanupWorld for M_Map3, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-18.22.02:088][656]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-18.22.02:088][656]MapCheck: New page: Map Check
+[2023.05.22-18.22.02:088][656]LightingResults: New page: Lighting Build
+[2023.05.22-18.22.02:096][656]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-18.22.02:100][656]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display: ================================================
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display: Total job queries 2242, among them cache hits 1310 (58.43%)
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display: Tracking 930 distinct input hashes that result in 381 distinct outputs (40.97%)
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display: RAM used: 6.31 MB (0.01 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.38%
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display: Shaders Compiled: 284
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display: Jobs assigned 284, completed 284 (100.00%)
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display: Average time worker was idle: 278.01 s
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display: Time job spent in pending queue: average 0.47 s, longest 4.67 s
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display: Job execution time: average 1.46 s, max 2.70 s
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display: Job life time (pending + execution): average 1.93 s, max 5.70
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 57.78 s
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display: Jobs were issued in 284 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display: Average processing rate: 4.92 jobs/sec
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display: Total thread time: 341.86 s
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display: Total thread preprocess time: 19.19 s
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display: Percentage time preprocessing: 5.61%
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display: Effective parallelization: 5.92 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   14 times, average 1.77 sec, max 2.13 sec, min 1.62 sec)
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   14 times, average 1.74 sec, max 2.07 sec, min 1.62 sec)
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display:           TShadowDepthVSVertexShadowDepth_PerspectiveCorrect (compiled    1 times, average 1.72 sec, max 1.72 sec, min 1.72 sec)
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled   14 times, average 1.72 sec, max 2.04 sec, min 1.51 sec)
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled   14 times, average 1.68 sec, max 1.99 sec, min 1.54 sec)
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 7.70% of total time (compiled   26 times, average 1.01 sec, max 1.87 sec, min 0.54 sec)
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 7.23% of total time (compiled   14 times, average 1.77 sec, max 2.13 sec, min 1.62 sec)
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 7.13% of total time (compiled   14 times, average 1.74 sec, max 2.07 sec, min 1.62 sec)
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 7.04% of total time (compiled   14 times, average 1.72 sec, max 2.04 sec, min 1.51 sec)
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 6.93% of total time (compiled   26 times, average 0.91 sec, max 1.58 sec, min 0.53 sec)
+[2023.05.22-18.22.02:125][656]LogShaderCompilers: Display: ================================================
+[2023.05.22-18.22.02:126][656]LogWorld: UWorld::CleanupWorld for M_Map1, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-18.22.02:127][656]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-18.22.02:139][656]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2023.05.22-18.22.02:145][656]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.05.22-18.22.02:170][656]LogAudio: Display: Audio Device (ID: 1) registered with world 'M_Map1'.
+[2023.05.22-18.22.02:170][656]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-18.22.02:170][656]LogAIModule: Creating AISystem for world M_Map1
+[2023.05.22-18.22.02:194][656]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.22-18.22.02:195][656]LogNavigationDataBuild: Display:    RebuildAll building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2023.05.22-18.22.02:195][656]LogNavigationDataBuild: Display:    ANavigationData::RebuildAll load time: 0.00s
+[2023.05.22-18.22.02:205][656]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.05.22-18.22.02:212][656]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.22-18.22.02:212][656]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.089ms to complete.
+[2023.05.22-18.22.02:212][656]LogFileHelpers: Loading map 'M_Map1' took 0.128
+[2023.05.22-18.22.02:259][657]LogNavigationDataBuild: Display:    FRecastNavMeshGenerator::ProcessTileTasksAndGetUpdatedTiles build time: 0.06s
+[2023.05.22-18.22.02:259][657]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map1.M_Map1:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-18.22.03:579][765]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-18.22.03:585][765]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-18.22.03:585][765]PIE: New page: PIE session: M_Map1 (22 May 2023, 20:22:03)
+[2023.05.22-18.22.03:607][765]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_M_Map1
+[2023.05.22-18.22.03:624][765]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016926s)
+[2023.05.22-18.22.03:624][765]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/M_Map1.M_Map1 to /Game/Maps/UEDPIE_0_M_Map1.M_Map1 (0.016956s)
+[2023.05.22-18.22.03:624][765]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-18.22.03:624][765]LogAIModule: Creating AISystem for world M_Map1
+[2023.05.22-18.22.03:624][765]LogPlayLevel: PIE: World Init took: (0.000626s)
+[2023.05.22-18.22.03:634][765]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.05.22-18.22.03:635][765]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2023.05.22-18.22.03:635][765]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-18.22.03:635][765]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-18.22.03:635][765]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-18.22.03:635][765]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-18.22.03:635][765]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-18.22.03:635][765]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-18.22.03:635][765]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-18.22.03:635][765]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-18.22.03:635][765]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-18.22.03:635][765]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-18.22.03:635][765]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-18.22.03:637][765]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-18.22.03:647][765]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.05.22-18.22.03:648][765]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-18.22.03:648][765]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-18.22.03:648][765]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-18.22.03:649][765]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2023.05.22-18.22.03:649][765]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2023.05.22-18.22.03:650][765]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2023.05.22-18.22.03:650][765]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2023.05.22-18.22.03:650][765]LogInit: FAudioDevice initialized.
+[2023.05.22-18.22.03:650][765]LogAudio: Display: Audio Device (ID: 22) registered with world 'M_Map1'.
+[2023.05.22-18.22.03:652][765]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.05.22-18.22.03:655][765]LogWorld: Bringing World /Game/Maps/UEDPIE_0_M_Map1.M_Map1 up for play (max tick rate 0) at 2023.05.22-19.22.03
+[2023.05.22-18.22.03:655][765]LogWorld: Bringing up level for play took: 0.003393
+[2023.05.22-18.22.03:657][765]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2023.05.22-18.22.03:659][765]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] 1
+[2023.05.22-18.22.03:659][765]PIE: Server logged in
+[2023.05.22-18.22.03:660][765]PIE: Play in editor total start time 0.076 seconds.
+[2023.05.22-18.22.17:544][107]LogCharacterMovement: BP_TopDownCharacter_C_0 is stuck and failed to move! Velocity: X=-10.25 Y=-1.90 Z=0.00 Location: X=94.91 Y=668.27 Z=198.16 Normal: X=0.69 Y=-0.72 Z=-0.00 PenetrationDepth:0.000 Actor:BP_Door_C_6 Component:Door BoneName:None (0 other events since notify)
+[2023.05.22-18.22.24:197][733]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-18.22.24:197][733]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_M_Map1
+[2023.05.22-18.22.24:197][733]LogWorld: UWorld::CleanupWorld for M_Map1, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-18.22.24:198][733]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-18.22.24:200][733]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-18.22.24:202][733]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-18.22.24:208][733]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-18.22.24:209][733]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.05.22-18.22.24:210][733]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.05.22-18.22.24:215][733]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2023.05.22-18.22.24:276][736]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2023.05.22-18.22.36:304][745]LogNavigation: Warning: Changing AgentRadius directly on RecastNavMesh instance is unsupported. Please use Project Settings > NavigationSystem > SupportedAgents to change AgentRadius
+[2023.05.22-18.22.36:304][745]LogNavigationDataBuild: Display:    ANavigationData::RebuildAll load time: 0.00s
+[2023.05.22-18.22.36:316][746]LogNavigationDataBuild: Display:    FRecastNavMeshGenerator::ProcessTileTasksAndGetUpdatedTiles build time: 0.01s
+[2023.05.22-18.22.36:317][746]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map1.M_Map1:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-18.22.37:862][872]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.05.22-18.22.37:867][872]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-18.22.37:915][872]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.05.22-18.22.37:977][872]LogSavePackage: Moving output files for package: /Game/Maps/M_Map1
+[2023.05.22-18.22.37:977][872]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/UnrealRepos/Climate/HNDGroupProject/GroupProject/Saved/M_Map13488F8694CC3DF6C8BE2BA8AEFF0766B.tmp' to '../../../../../../Users/Dylan/Documents/UnrealRepos/Climate/HNDGroupProject/GroupProject/Content/Maps/M_Map1.umap'
+[2023.05.22-18.22.37:986][872]LogFileHelpers: Saving map 'M_Map1' took 0.079
+[2023.05.22-18.22.37:990][872]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 38.6 sec)
+[2023.05.22-18.22.37:994][872]AssetCheck: New page: Asset Save: M_Map1
+[2023.05.22-18.22.37:994][872]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/M_Map1.M_Map1
+[2023.05.22-18.22.41:278][169]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.22-18.22.41:284][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.22-18.22.41:284][169]PIE: New page: PIE session: M_Map1 (22 May 2023, 20:22:41)
+[2023.05.22-18.22.41:307][169]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_M_Map1
+[2023.05.22-18.22.41:323][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015659s)
+[2023.05.22-18.22.41:323][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/M_Map1.M_Map1 to /Game/Maps/UEDPIE_0_M_Map1.M_Map1 (0.015688s)
+[2023.05.22-18.22.41:323][169]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-18.22.41:323][169]LogAIModule: Creating AISystem for world M_Map1
+[2023.05.22-18.22.41:323][169]LogPlayLevel: PIE: World Init took: (0.000610s)
+[2023.05.22-18.22.41:330][169]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.05.22-18.22.41:331][169]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2023.05.22-18.22.41:331][169]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.22-18.22.41:331][169]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.22-18.22.41:331][169]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.22-18.22.41:331][169]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.22-18.22.41:331][169]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.22-18.22.41:331][169]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.22-18.22.41:331][169]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.22-18.22.41:331][169]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.22-18.22.41:331][169]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.22-18.22.41:331][169]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.22-18.22.41:331][169]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.22-18.22.41:333][169]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.22-18.22.41:342][169]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.05.22-18.22.41:342][169]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.22-18.22.41:343][169]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.22-18.22.41:343][169]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.22-18.22.41:343][169]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2023.05.22-18.22.41:343][169]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2023.05.22-18.22.41:344][169]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2023.05.22-18.22.41:344][169]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2023.05.22-18.22.41:344][169]LogInit: FAudioDevice initialized.
+[2023.05.22-18.22.41:344][169]LogAudio: Display: Audio Device (ID: 23) registered with world 'M_Map1'.
+[2023.05.22-18.22.41:346][169]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.05.22-18.22.41:349][169]LogWorld: Bringing World /Game/Maps/UEDPIE_0_M_Map1.M_Map1 up for play (max tick rate 0) at 2023.05.22-19.22.41
+[2023.05.22-18.22.41:350][169]LogWorld: Bringing up level for play took: 0.003464
+[2023.05.22-18.22.41:351][169]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2023.05.22-18.22.41:354][169]LogBlueprintUserMessages: [BP_TopDownCharacter_C_0] 1
+[2023.05.22-18.22.41:354][169]PIE: Server logged in
+[2023.05.22-18.22.41:354][169]PIE: Play in editor total start time 0.071 seconds.
+[2023.05.22-18.22.51:628][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-18.22.51:628][156]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_M_Map1
+[2023.05.22-18.22.51:628][156]LogWorld: UWorld::CleanupWorld for M_Map1, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-18.22.51:628][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-18.22.51:630][156]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.22-18.22.51:632][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-18.22.51:638][156]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-18.22.51:639][156]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.05.22-18.22.51:640][156]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.05.22-18.22.51:642][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.22-18.22.51:645][156]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.05.22-18.22.51:692][160]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2023.05.22-18.22.52:604][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.05.22-18.22.52:681][246]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/M_Map3.M_Map3
+[2023.05.22-18.22.52:681][246]Cmd: MAP LOAD FILE="../../../../../../Users/Dylan/Documents/UnrealRepos/Climate/HNDGroupProject/GroupProject/Content/Maps/M_Map3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.22-18.22.52:681][246]LightingResults: New page: Lighting Build
+[2023.05.22-18.22.52:681][246]LoadErrors: New page: Loading map: M_Map3.umap
+[2023.05.22-18.22.52:718][246]LogWorld: UWorld::CleanupWorld for M_Map1, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-18.22.52:718][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-18.22.52:718][246]MapCheck: New page: Map Check
+[2023.05.22-18.22.52:718][246]LightingResults: New page: Lighting Build
+[2023.05.22-18.22.52:726][246]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-18.22.52:729][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.05.22-18.22.52:760][246]LogWorld: UWorld::CleanupWorld for M_Map3, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-18.22.52:760][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-18.22.52:777][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2023.05.22-18.22.52:784][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.05.22-18.22.52:813][246]LogAudio: Display: Audio Device (ID: 1) registered with world 'M_Map3'.
+[2023.05.22-18.22.52:813][246]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-18.22.52:813][246]LogAIModule: Creating AISystem for world M_Map3
+[2023.05.22-18.22.52:880][246]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.22-18.22.52:893][246]LogNavigationDataBuild: Display:    RebuildAll building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2023.05.22-18.22.52:893][246]LogNavigationDataBuild: Display:    ANavigationData::RebuildAll load time: 0.00s
+[2023.05.22-18.22.52:909][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.05.22-18.22.52:916][246]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.22-18.22.52:916][246]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.104ms to complete.
+[2023.05.22-18.22.52:916][246]LogFileHelpers: Loading map 'M_Map3' took 0.235
+[2023.05.22-18.22.53:647][272]LogNavigationDataBuild: Display:    FRecastNavMeshGenerator::ProcessTileTasksAndGetUpdatedTiles build time: 0.75s
+[2023.05.22-18.22.53:647][272]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-18.22.57:575][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.05.22-18.22.57:634][665]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/M_Level2.M_Level2
+[2023.05.22-18.22.57:634][665]Cmd: MAP LOAD FILE="../../../../../../Users/Dylan/Documents/UnrealRepos/Climate/HNDGroupProject/GroupProject/Content/Maps/M_Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.22-18.22.57:634][665]LightingResults: New page: Lighting Build
+[2023.05.22-18.22.57:634][665]LoadErrors: New page: Loading map: M_Level2.umap
+[2023.05.22-18.22.57:669][665]LogWorld: UWorld::CleanupWorld for M_Map3, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-18.22.57:669][665]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-18.22.57:669][665]MapCheck: New page: Map Check
+[2023.05.22-18.22.57:669][665]LightingResults: New page: Lighting Build
+[2023.05.22-18.22.57:676][665]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-18.22.57:680][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.05.22-18.22.57:708][665]LogWorld: UWorld::CleanupWorld for M_Level2, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-18.22.57:709][665]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-18.22.57:721][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.05.22-18.22.57:728][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.05.22-18.22.57:749][665]LogAudio: Display: Audio Device (ID: 1) registered with world 'M_Level2'.
+[2023.05.22-18.22.57:749][665]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-18.22.57:750][665]LogAIModule: Creating AISystem for world M_Level2
+[2023.05.22-18.22.57:783][665]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.22-18.22.57:785][665]LogNavigationDataBuild: Display:    RebuildAll building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2023.05.22-18.22.57:785][665]LogNavigationDataBuild: Display:    ANavigationData::RebuildAll load time: 0.00s
+[2023.05.22-18.22.57:797][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.05.22-18.22.57:804][665]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.22-18.22.57:806][665]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2.077ms to complete.
+[2023.05.22-18.22.57:806][665]LogFileHelpers: Loading map 'M_Level2' took 0.173
+[2023.05.22-18.22.57:846][666]LogNavigationDataBuild: Display:    FRecastNavMeshGenerator::ProcessTileTasksAndGetUpdatedTiles build time: 0.06s
+[2023.05.22-18.22.57:846][666]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Level2.M_Level2:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-18.23.03:113][221]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.05.22-18.23.04:137][330]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.05.22-18.23.06:209][564]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.05.22-18.23.06:284][564]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/M_Map1.M_Map1
+[2023.05.22-18.23.06:284][564]Cmd: MAP LOAD FILE="../../../../../../Users/Dylan/Documents/UnrealRepos/Climate/HNDGroupProject/GroupProject/Content/Maps/M_Map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.22-18.23.06:284][564]LightingResults: New page: Lighting Build
+[2023.05.22-18.23.06:284][564]LoadErrors: New page: Loading map: M_Map1.umap
+[2023.05.22-18.23.06:286][564]LogWorld: UWorld::CleanupWorld for M_Level2, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-18.23.06:286][564]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-18.23.06:286][564]MapCheck: New page: Map Check
+[2023.05.22-18.23.06:286][564]LightingResults: New page: Lighting Build
+[2023.05.22-18.23.06:294][564]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-18.23.06:296][564]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.05.22-18.23.06:324][564]LogWorld: UWorld::CleanupWorld for M_Map1, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-18.23.06:325][564]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-18.23.06:337][564]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.05.22-18.23.06:344][564]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.05.22-18.23.06:368][564]LogAudio: Display: Audio Device (ID: 1) registered with world 'M_Map1'.
+[2023.05.22-18.23.06:368][564]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-18.23.06:368][564]LogAIModule: Creating AISystem for world M_Map1
+[2023.05.22-18.23.06:390][564]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.22-18.23.06:391][564]LogNavigationDataBuild: Display:    RebuildAll building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2023.05.22-18.23.06:391][564]LogNavigationDataBuild: Display:    ANavigationData::RebuildAll load time: 0.00s
+[2023.05.22-18.23.06:402][564]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.05.22-18.23.06:409][564]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.22-18.23.06:409][564]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.086ms to complete.
+[2023.05.22-18.23.06:409][564]LogFileHelpers: Loading map 'M_Map1' took 0.125
+[2023.05.22-18.23.06:454][565]LogNavigationDataBuild: Display:    FRecastNavMeshGenerator::ProcessTileTasksAndGetUpdatedTiles build time: 0.06s
+[2023.05.22-18.23.06:454][565]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map1.M_Map1:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-18.23.13:232][133]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.05.22-18.23.14:433][133]LogSlate: Window 'Save Content' being destroyed
+[2023.05.22-18.23.14:440][133]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-18.23.14:483][133]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.05.22-18.23.14:541][133]LogSavePackage: Moving output files for package: /Game/Maps/M_Map1
+[2023.05.22-18.23.14:541][133]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/UnrealRepos/Climate/HNDGroupProject/GroupProject/Saved/M_Map1C138CD494C99AFEFA9272184BB806E3A.tmp' to '../../../../../../Users/Dylan/Documents/UnrealRepos/Climate/HNDGroupProject/GroupProject/Content/Maps/M_Map1.umap'
+[2023.05.22-18.23.14:549][133]LogFileHelpers: Saving map 'M_Map1' took 0.074
+[2023.05.22-18.23.14:553][133]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 38.7 sec)
+[2023.05.22-18.23.14:617][133]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/M_Map3.M_Map3
+[2023.05.22-18.23.14:617][133]Cmd: MAP LOAD FILE="../../../../../../Users/Dylan/Documents/UnrealRepos/Climate/HNDGroupProject/GroupProject/Content/Maps/M_Map3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.22-18.23.14:617][133]LightingResults: New page: Lighting Build
+[2023.05.22-18.23.14:617][133]LoadErrors: New page: Loading map: M_Map3.umap
+[2023.05.22-18.23.14:648][133]LogWorld: UWorld::CleanupWorld for M_Map1, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-18.23.14:648][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-18.23.14:648][133]MapCheck: New page: Map Check
+[2023.05.22-18.23.14:648][133]LightingResults: New page: Lighting Build
+[2023.05.22-18.23.14:656][133]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-18.23.14:659][133]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.05.22-18.23.14:687][133]LogWorld: UWorld::CleanupWorld for M_Map3, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-18.23.14:688][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-18.23.14:704][133]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.05.22-18.23.14:711][133]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.05.22-18.23.14:739][133]LogAudio: Display: Audio Device (ID: 1) registered with world 'M_Map3'.
+[2023.05.22-18.23.14:739][133]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-18.23.14:739][133]LogAIModule: Creating AISystem for world M_Map3
+[2023.05.22-18.23.14:808][133]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.22-18.23.14:820][133]LogNavigationDataBuild: Display:    RebuildAll building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2023.05.22-18.23.14:820][133]LogNavigationDataBuild: Display:    ANavigationData::RebuildAll load time: 0.00s
+[2023.05.22-18.23.14:836][133]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.05.22-18.23.14:843][133]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.22-18.23.14:843][133]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.092ms to complete.
+[2023.05.22-18.23.14:843][133]LogFileHelpers: Loading map 'M_Map3' took 0.226
+[2023.05.22-18.23.14:856][133]AssetCheck: New page: Asset Save: M_Map1
+[2023.05.22-18.23.15:570][158]LogNavigationDataBuild: Display:    FRecastNavMeshGenerator::ProcessTileTasksAndGetUpdatedTiles build time: 0.75s
+[2023.05.22-18.23.15:570][158]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-18.23.15:781][179]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.05.22-18.23.15:846][179]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/M_Map1.M_Map1
+[2023.05.22-18.23.15:846][179]Cmd: MAP LOAD FILE="../../../../../../Users/Dylan/Documents/UnrealRepos/Climate/HNDGroupProject/GroupProject/Content/Maps/M_Map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.22-18.23.15:846][179]LightingResults: New page: Lighting Build
+[2023.05.22-18.23.15:846][179]LoadErrors: New page: Loading map: M_Map1.umap
+[2023.05.22-18.23.15:849][179]LogWorld: UWorld::CleanupWorld for M_Map3, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-18.23.15:849][179]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-18.23.15:850][179]MapCheck: New page: Map Check
+[2023.05.22-18.23.15:850][179]LightingResults: New page: Lighting Build
+[2023.05.22-18.23.15:857][179]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-18.23.15:861][179]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.05.22-18.23.15:888][179]LogWorld: UWorld::CleanupWorld for M_Map1, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-18.23.15:888][179]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-18.23.15:900][179]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.05.22-18.23.15:906][179]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.05.22-18.23.15:930][179]LogAudio: Display: Audio Device (ID: 1) registered with world 'M_Map1'.
+[2023.05.22-18.23.15:930][179]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-18.23.15:931][179]LogAIModule: Creating AISystem for world M_Map1
+[2023.05.22-18.23.15:953][179]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.22-18.23.15:954][179]LogNavigationDataBuild: Display:    RebuildAll building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2023.05.22-18.23.15:954][179]LogNavigationDataBuild: Display:    ANavigationData::RebuildAll load time: 0.00s
+[2023.05.22-18.23.15:965][179]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.05.22-18.23.15:972][179]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.22-18.23.15:972][179]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.085ms to complete.
+[2023.05.22-18.23.15:972][179]LogFileHelpers: Loading map 'M_Map1' took 0.126
+[2023.05.22-18.23.16:017][180]LogNavigationDataBuild: Display:    FRecastNavMeshGenerator::ProcessTileTasksAndGetUpdatedTiles build time: 0.06s
+[2023.05.22-18.23.16:017][180]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map1.M_Map1:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-18.23.18:406][368]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.05.22-18.23.19:252][437]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.05.22-18.23.19:343][437]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/M_Map3.M_Map3
+[2023.05.22-18.23.19:343][437]Cmd: MAP LOAD FILE="../../../../../../Users/Dylan/Documents/UnrealRepos/Climate/HNDGroupProject/GroupProject/Content/Maps/M_Map3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.22-18.23.19:343][437]LightingResults: New page: Lighting Build
+[2023.05.22-18.23.19:343][437]LoadErrors: New page: Loading map: M_Map3.umap
+[2023.05.22-18.23.19:367][437]LogWorld: UWorld::CleanupWorld for M_Map1, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-18.23.19:367][437]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-18.23.19:368][437]MapCheck: New page: Map Check
+[2023.05.22-18.23.19:368][437]LightingResults: New page: Lighting Build
+[2023.05.22-18.23.19:375][437]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.22-18.23.19:378][437]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.05.22-18.23.19:407][437]LogWorld: UWorld::CleanupWorld for M_Map3, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-18.23.19:408][437]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-18.23.19:424][437]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.05.22-18.23.19:432][437]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2023.05.22-18.23.19:460][437]LogAudio: Display: Audio Device (ID: 1) registered with world 'M_Map3'.
+[2023.05.22-18.23.19:461][437]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.22-18.23.19:461][437]LogAIModule: Creating AISystem for world M_Map3
+[2023.05.22-18.23.19:525][437]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.22-18.23.19:537][437]LogNavigationDataBuild: Display:    RebuildAll building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2023.05.22-18.23.19:537][437]LogNavigationDataBuild: Display:    ANavigationData::RebuildAll load time: 0.00s
+[2023.05.22-18.23.19:553][437]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.05.22-18.23.19:560][437]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.22-18.23.19:560][437]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.094ms to complete.
+[2023.05.22-18.23.19:560][437]LogFileHelpers: Loading map 'M_Map3' took 0.217
+[2023.05.22-18.23.20:266][462]LogNavigationDataBuild: Display:    FRecastNavMeshGenerator::ProcessTileTasksAndGetUpdatedTiles build time: 0.73s
+[2023.05.22-18.23.20:266][462]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Maps/M_Map3.M_Map3:PersistentLevel.RecastNavMesh-Default).
+[2023.05.22-18.23.24:473][934]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.22-18.23.24:542][934]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.05.22-18.23.24:625][934]LogSavePackage: Moving output files for package: /Game/Maps/M_Map3
+[2023.05.22-18.23.24:625][934]LogSavePackage: Moving '../../../../../../Users/Dylan/Documents/UnrealRepos/Climate/HNDGroupProject/GroupProject/Saved/M_Map3F1B0096F46D8F7F4669BCDB0504B3F9E.tmp' to '../../../../../../Users/Dylan/Documents/UnrealRepos/Climate/HNDGroupProject/GroupProject/Content/Maps/M_Map3.umap'
+[2023.05.22-18.23.24:633][934]LogFileHelpers: Saving map 'M_Map3' took 0.101
+[2023.05.22-18.23.24:645][934]LogFileHelpers: InternalPromptForCheckoutAndSave took 171 ms (total: 38.9 sec)
+[2023.05.22-18.23.24:648][934]AssetCheck: New page: Asset Save: M_Map3
+[2023.05.22-18.23.24:648][934]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/M_Map3.M_Map3
+[2023.05.22-18.23.26:039][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.05.22-18.23.39:301][296]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2023.05.22-18.23.39:302][296]LogStall: Shutdown...
+[2023.05.22-18.23.39:307][296]LogStall: Shutdown complete.
+[2023.05.22-18.23.39:329][296]LogSlate: Window 'HNDGroupProject - Unreal Editor' being destroyed
+[2023.05.22-18.23.39:393][297]Cmd: QUIT_EDITOR
+[2023.05.22-18.23.39:393][297]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2023.05.22-18.23.39:395][297]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2023.05.22-18.23.39:395][297]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2023.05.22-18.23.39:395][297]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2023.05.22-18.23.39:396][297]LogWorld: UWorld::CleanupWorld for M_Map3, bSessionEnded=true, bCleanupResources=true
+[2023.05.22-18.23.39:396][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.22-18.23.39:397][297]LogStylusInput: Shutting down StylusInput subsystem.
+[2023.05.22-18.23.39:398][297]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2023.05.22-18.23.39:778][297]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2023.05.22-18.23.39:778][297]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2023.05.22-18.23.39:778][297]LogAudio: Display: Audio Device unregistered from world 'M_Map3'.
+[2023.05.22-18.23.39:778][297]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.05.22-18.23.39:780][297]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.05.22-18.23.39:783][297]LogAudio: Display: Audio Device Manager Shutdown
+[2023.05.22-18.23.39:786][297]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2023.05.22-18.23.39:786][297]LogExit: Preparing to exit.
+[2023.05.22-18.23.39:804][297]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
